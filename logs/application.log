@@ -1,0 +1,405 @@
+"2018-02-26 11:44:34 [main] INFO  c.b.e.c.CashExchangeApplication - Starting CashExchangeApplication on NIDIGIABURU8881 with PID 10504 (C:\Users\aburu\Projects\cash-exchange\target\classes started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-02-26 11:44:34 [main] INFO  c.b.e.c.CashExchangeApplication - No active profile set, falling back to default profiles: default
+""2018-02-26 11:44:34 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@351d0846: startup date [Mon Feb 26 11:44:34 SGT 2018]; root of context hierarchy
+""2018-02-26 11:44:35 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$97deab91] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-02-26 11:44:35 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2018-02-26 11:44:35 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f346e692] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-02-26 11:44:35 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+""2018-02-26 11:44:35 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2018-02-26 11:44:35 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+""2018-02-26 11:44:36 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2018-02-26 11:44:36 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2018-02-26 11:44:36 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2018-02-26 11:44:36 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2018-02-26 11:44:36 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2018-02-26 11:44:36 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+""2018-02-26 11:44:36 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2018-02-26 11:44:37 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+""2018-02-26 11:44:37 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+""2018-02-26 11:44:37 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+""2018-02-26 11:44:37 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+""2018-02-26 11:44:37 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+
+""2018-02-26 11:47:01 [main] INFO  c.b.e.c.CashExchangeApplication - Starting CashExchangeApplication on NIDIGIABURU8881 with PID 1424 (C:\Users\aburu\Projects\cash-exchange\target\classes started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-02-26 11:47:01 [main] INFO  c.b.e.c.CashExchangeApplication - No active profile set, falling back to default profiles: default
+""2018-02-26 11:47:01 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@351d0846: startup date [Mon Feb 26 11:47:01 SGT 2018]; root of context hierarchy
+""2018-02-26 11:47:03 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$7f366c8f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-02-26 11:47:03 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2018-02-26 11:47:03 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$da9ea790] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-02-26 11:47:03 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+""2018-02-26 11:47:03 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2018-02-26 11:47:03 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+""2018-02-26 11:47:03 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2018-02-26 11:47:03 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2018-02-26 11:47:03 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2018-02-26 11:47:03 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2018-02-26 11:47:03 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2018-02-26 11:47:03 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+""2018-02-26 11:47:03 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2018-02-26 11:47:03 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+""2018-02-26 11:47:03 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javax.sql.DataSource' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+""2018-02-26 11:47:03 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+""2018-02-26 11:47:03 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+""2018-02-26 11:47:03 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration required a bean of type 'javax.sql.DataSource' that could not be found.
+	- Bean method 'dataSource' not loaded because @ConditionalOnProperty (spring.datasource.jndi-name) did not find property 'jndi-name'
+	- Bean method 'dataSource' not loaded because @ConditionalOnBean (types: org.springframework.boot.jta.XADataSourceWrapper; SearchStrategy: all) did not find any beans
+
+
+Action:
+
+Consider revisiting the conditions above or defining a bean of type 'javax.sql.DataSource' in your configuration.
+
+""2018-02-26 11:48:32 [main] INFO  c.b.e.c.CashExchangeApplicationTests - Starting CashExchangeApplicationTests on NIDIGIABURU8881 with PID 2576 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-02-26 11:48:32 [main] INFO  c.b.e.c.CashExchangeApplicationTests - No active profile set, falling back to default profiles: default
+""2018-02-26 11:48:34 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$da686870] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-02-26 11:48:34 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2018-02-26 11:48:34 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$35d0a371] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-02-26 11:48:34 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+""2018-02-26 11:48:34 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration required a bean of type 'javax.sql.DataSource' that could not be found.
+	- Bean method 'dataSource' not loaded because @ConditionalOnProperty (spring.datasource.jndi-name) did not find property 'jndi-name'
+	- Bean method 'dataSource' not loaded because @ConditionalOnBean (types: org.springframework.boot.jta.XADataSourceWrapper; SearchStrategy: all) did not find any beans
+
+
+Action:
+
+Consider revisiting the conditions above or defining a bean of type 'javax.sql.DataSource' in your configuration.
+
+""2018-02-26 11:48:34 [main] ERROR o.s.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@123f1134] to prepare test instance [com.burusoth.exchange.cashexchange.CashExchangeApplicationTests@6d64b553]
+"java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javax.sql.DataSource' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1193)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1095)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1080)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 26 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javax.sql.DataSource' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1493)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1104)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 53 common frames omitted
+"2018-02-26 11:49:22 [main] INFO  c.b.e.c.CashExchangeApplicationTests - Starting CashExchangeApplicationTests on NIDIGIABURU8881 with PID 9784 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-02-26 11:49:22 [main] INFO  c.b.e.c.CashExchangeApplicationTests - No active profile set, falling back to default profiles: default
+""2018-02-26 11:49:23 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$baaf8d4a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-02-26 11:49:23 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2018-02-26 11:49:24 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 78d0a626-05de-4642-b9ca-abccff010794
+
+""2018-02-26 11:49:24 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-02-26 11:49:25 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@746b18fd, org.springframework.security.web.context.SecurityContextPersistenceFilter@9d200de, org.springframework.security.web.header.HeaderWriterFilter@19ccca5, org.springframework.security.web.authentication.logout.LogoutFilter@1949309d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@121c54fa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@646811d6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4ba89729, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a2e0858, org.springframework.security.web.session.SessionManagementFilter@42435b98, org.springframework.security.web.access.ExceptionTranslationFilter@57aa341b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4a3be6a5]
+""2018-02-26 11:49:25 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+""2018-02-26 11:49:25 [main] ERROR o.s.boot.SpringApplication - Application startup failed
+"org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.session.SessionAutoConfiguration$SessionRepositoryValidator': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: No Spring Session store is configured: set the 'spring.session.store-type' property
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:137)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: java.lang.IllegalArgumentException: No Spring Session store is configured: set the 'spring.session.store-type' property
+	at org.springframework.boot.autoconfigure.session.SessionAutoConfiguration$SessionRepositoryValidator.checkSessionRepository(SessionAutoConfiguration.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:311)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:134)
+	... 43 common frames omitted
+"2018-02-26 11:49:25 [main] ERROR o.s.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@797badd3] to prepare test instance [com.burusoth.exchange.cashexchange.CashExchangeApplicationTests@9255c05]
+"java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.session.SessionAutoConfiguration$SessionRepositoryValidator': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: No Spring Session store is configured: set the 'spring.session.store-type' property
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:137)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 26 common frames omitted
+Caused by: java.lang.IllegalArgumentException: No Spring Session store is configured: set the 'spring.session.store-type' property
+	at org.springframework.boot.autoconfigure.session.SessionAutoConfiguration$SessionRepositoryValidator.checkSessionRepository(SessionAutoConfiguration.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:311)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:134)
+	... 43 common frames omitted
+"2018-02-26 11:59:14 [main] INFO  c.b.e.c.CashExchangeApplication - Starting CashExchangeApplication on NIDIGIABURU8881 with PID 8880 (C:\Users\aburu\Projects\cash-exchange\target\classes started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-02-26 11:59:14 [main] INFO  c.b.e.c.CashExchangeApplication - No active profile set, falling back to default profiles: default
+""2018-02-26 11:59:14 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23bb8443: startup date [Mon Feb 26 11:59:14 SGT 2018]; root of context hierarchy
+""2018-02-26 11:59:15 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$da6d14f3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-02-26 11:59:15 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2018-02-26 11:59:15 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+""2018-02-26 11:59:15 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2018-02-26 11:59:15 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+""2018-02-26 11:59:15 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2018-02-26 11:59:15 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2018-02-26 11:59:15 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2018-02-26 11:59:15 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2018-02-26 11:59:15 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2018-02-26 11:59:15 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+""2018-02-26 11:59:15 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2018-02-26 11:59:15 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+""2018-02-26 11:59:16 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: fad8abf8-80fb-49e2-8954-a71595e2c094
+
+""2018-02-26 11:59:16 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-02-26 11:59:16 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@654c1a54, org.springframework.security.web.context.SecurityContextPersistenceFilter@72889280, org.springframework.security.web.header.HeaderWriterFilter@410e94e, org.springframework.security.web.authentication.logout.LogoutFilter@2c30b71f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3163987e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4aa3d36, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@49298ce7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5bdaf2ce, org.springframework.security.web.session.SessionManagementFilter@2516fc68, org.springframework.security.web.access.ExceptionTranslationFilter@64d43929, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1f651cd8]
+""2018-02-26 11:59:16 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2018-02-26 11:59:16 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+""2018-02-26 11:59:16 [main] INFO  c.b.e.c.CashExchangeApplication - Started CashExchangeApplication in 2.452 seconds (JVM running for 3.248)
+""2018-02-26 14:08:57 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Starting ExchangeFileReaderTest on NIDIGIABURU8881 with PID 9088 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-02-26 14:08:57 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - No active profile set, falling back to default profiles: default
+""2018-02-26 14:08:59 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$bd25a007] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-02-26 14:08:59 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2018-02-26 14:09:01 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 8badde54-d4a2-4cab-bc98-160de25c682e
+
+""2018-02-26 14:09:01 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-02-26 14:09:01 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@87abc48, org.springframework.security.web.context.SecurityContextPersistenceFilter@2032e725, org.springframework.security.web.header.HeaderWriterFilter@3a627c80, org.springframework.security.web.authentication.logout.LogoutFilter@7ca0863b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@773dab28, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@383f1975, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@773c0293, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28d79cba, org.springframework.security.web.session.SessionManagementFilter@31cb96e1, org.springframework.security.web.access.ExceptionTranslationFilter@1542af63, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@64138b0c]
+""2018-02-26 14:09:01 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Started ExchangeFileReaderTest in 4.179 seconds (JVM running for 5.212)
+""2018-02-26 14:09:01 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Creating file for testing
+""2018-02-26 14:09:01 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - File Created Successfully.
+""2018-02-26 14:09:01 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Appended two lines of text to the file for testing
+""2018-02-26 14:09:01 [main] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/2014-02-24.txt
+""2018-02-26 14:09:01 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Successfully file deleted.
+""2018-02-26 14:16:40 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Starting ExchangeFileReaderTest on NIDIGIABURU8881 with PID 1584 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-02-26 14:16:40 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - No active profile set, falling back to default profiles: default
+""2018-02-26 14:16:41 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$a898504a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-02-26 14:16:41 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2018-02-26 14:16:43 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: a950a6d8-535d-4a2e-b21a-89c8c5687f48
+
+""2018-02-26 14:16:43 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-02-26 14:16:43 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1bfe3203, org.springframework.security.web.context.SecurityContextPersistenceFilter@773c0293, org.springframework.security.web.header.HeaderWriterFilter@3eed0f5, org.springframework.security.web.authentication.logout.LogoutFilter@1ecfcbc9, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@226b143b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3b569985, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@22d1886d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b214b94, org.springframework.security.web.session.SessionManagementFilter@66e889df, org.springframework.security.web.access.ExceptionTranslationFilter@562c877a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@281f23f2]
+""2018-02-26 14:16:43 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Started ExchangeFileReaderTest in 3.985 seconds (JVM running for 5.009)
+""2018-02-26 14:16:43 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Creating file for testing
+""2018-02-26 14:16:43 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - File Created Successfully.
+""2018-02-26 14:16:43 [main] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/2014-02-24.txt
+""2018-02-26 14:16:43 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Successfully file deleted.
+""2018-02-26 14:18:32 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Starting ExchangeFileReaderTest on NIDIGIABURU8881 with PID 10848 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-02-26 14:18:32 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - No active profile set, falling back to default profiles: default
+""2018-02-26 14:18:34 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$ff480714] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-02-26 14:18:34 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2018-02-26 14:18:35 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 3e7869a8-6889-4b5d-b091-279d81f7de26
+
+""2018-02-26 14:18:35 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-02-26 14:18:35 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4f186450, org.springframework.security.web.context.SecurityContextPersistenceFilter@1542af63, org.springframework.security.web.header.HeaderWriterFilter@677b8e13, org.springframework.security.web.authentication.logout.LogoutFilter@444548a0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@31ddd4a4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@20ed3303, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@562c877a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7fab4be7, org.springframework.security.web.session.SessionManagementFilter@5cf8edcf, org.springframework.security.web.access.ExceptionTranslationFilter@30331109, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@43effd89]
+""2018-02-26 14:18:36 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Started ExchangeFileReaderTest in 3.936 seconds (JVM running for 5.008)
+""2018-02-26 14:18:36 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Creating file for testing
+""2018-02-26 14:18:36 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - File Created Successfully.
+""2018-02-26 14:18:36 [main] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/2014-02-24.txt
+""2018-02-26 14:18:36 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Successfully file deleted.
+""2018-02-26 14:19:10 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Starting ExchangeFileReaderTest on NIDIGIABURU8881 with PID 9928 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-02-26 14:19:10 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - No active profile set, falling back to default profiles: default
+""2018-02-26 14:19:12 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$bd25a007] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-02-26 14:19:12 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2018-02-26 14:19:14 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: e1f1ab36-540e-4702-98db-4da6ae14915a
+
+""2018-02-26 14:19:14 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-02-26 14:19:14 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@79ab34c1, org.springframework.security.web.context.SecurityContextPersistenceFilter@31cb96e1, org.springframework.security.web.header.HeaderWriterFilter@ecfbe91, org.springframework.security.web.authentication.logout.LogoutFilter@7df60067, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4af46df3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@64030b91, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@66e889df, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1698d7c0, org.springframework.security.web.session.SessionManagementFilter@562c877a, org.springframework.security.web.access.ExceptionTranslationFilter@5cf8edcf, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@a64e035]
+""2018-02-26 14:19:14 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Started ExchangeFileReaderTest in 4.142 seconds (JVM running for 5.213)
+""2018-02-26 14:19:14 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Creating file for testing
+""2018-02-26 14:19:14 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - File Created Successfully.
+""2018-02-26 14:19:14 [main] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/2014-02-24.txt
+""2018-02-26 14:19:14 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Successfully file deleted.
+""2018-02-26 14:19:25 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Starting ExchangeFileReaderTest on NIDIGIABURU8881 with PID 10472 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-02-26 14:19:25 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - No active profile set, falling back to default profiles: default
+""2018-02-26 14:19:27 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$55173b89] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-02-26 14:19:27 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2018-02-26 14:19:28 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 9cb60fd0-b8aa-4a39-8999-b75676961883
+
+""2018-02-26 14:19:28 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-02-26 14:19:28 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@325bb9a6, org.springframework.security.web.context.SecurityContextPersistenceFilter@74fe5966, org.springframework.security.web.header.HeaderWriterFilter@131fcb6f, org.springframework.security.web.authentication.logout.LogoutFilter@562c877a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@383f1975, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@677b8e13, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@57540fd0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1d12b024, org.springframework.security.web.session.SessionManagementFilter@25d3cfc8, org.springframework.security.web.access.ExceptionTranslationFilter@3a4ba480, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@78faea5f]
+""2018-02-26 14:19:29 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Started ExchangeFileReaderTest in 4.195 seconds (JVM running for 6.08)
+""2018-02-26 14:19:29 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Creating file for testing
+""2018-02-26 14:19:29 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - File Created Successfully.
+""2018-02-26 14:19:29 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Appended two lines of text to the file for testing
+""2018-02-26 14:19:29 [main] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/2014-02-24.txt
+""2018-02-26 14:19:29 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Successfully file deleted.
+""2018-02-26 14:19:29 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Creating file for testing
+""2018-02-26 14:19:29 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - File Created Successfully.
+""2018-02-26 14:19:29 [main] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/2014-02-24.txt
+""2018-02-26 14:19:29 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Successfully file deleted.
+""2018-02-26 14:19:29 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Creating file for testing
+""2018-02-26 14:19:29 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - File Created Successfully.
+""2018-02-26 14:19:29 [main] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/2014-02-24.txt
+""2018-02-26 14:19:29 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Successfully file deleted.
+"
