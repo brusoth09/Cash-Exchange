@@ -764,4 +764,160 @@ Using default security password: a6acc3de-7e98-4060-996b-21409369a68c
 ""2018-02-26 16:49:39 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - File Created Successfully.
 ""2018-02-26 16:49:39 [main] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/2014-02-24.txt
 ""2018-02-26 16:49:39 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Successfully file deleted.
+""2018-02-28 22:34:50 [main] INFO  c.b.e.c.CashExchangeApplicationTests - Starting CashExchangeApplicationTests on Ahiladass-MacBook-Pro.local with PID 2415 (started by burusoth in /Users/burusoth/Projects/Cash-Exchange)
+""2018-02-28 22:34:50 [main] INFO  c.b.e.c.CashExchangeApplicationTests - No active profile set, falling back to default profiles: default
+""2018-02-28 22:34:51 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$486a46aa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-02-28 22:34:51 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2018-02-28 22:34:52 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 7c1b9cdc-7d0b-457f-baa7-a4c931608a70
+
+""2018-02-28 22:34:52 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-02-28 22:34:52 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ce7e83c, org.springframework.security.web.context.SecurityContextPersistenceFilter@203c20cf, org.springframework.security.web.header.HeaderWriterFilter@359b650b, org.springframework.security.web.authentication.logout.LogoutFilter@64c4c01, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@33b082c5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@44de94c3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1f387978, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a05d8ae, org.springframework.security.web.session.SessionManagementFilter@640dc4c6, org.springframework.security.web.access.ExceptionTranslationFilter@51d143a1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5ff60a8c]
+""2018-02-28 22:34:53 [main] INFO  c.b.e.c.CashExchangeApplicationTests - Started CashExchangeApplicationTests in 3.608 seconds (JVM running for 6.172)
+""2018-02-28 22:34:53 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Creating file for testing
+""2018-02-28 22:34:53 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - File Created Successfully.
+""2018-02-28 22:34:53 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Appended two lines of text to the file for testing
+""2018-02-28 22:34:53 [main] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/2014-02-24.txt
+""2018-02-28 22:34:53 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Successfully file deleted.
+""2018-02-28 22:34:53 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Creating file for testing
+""2018-02-28 22:34:53 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - File Created Successfully.
+""2018-02-28 22:34:53 [main] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/2014-02-24.txt
+""2018-02-28 22:34:53 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Successfully file deleted.
+""2018-02-28 22:34:53 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Creating file for testing
+""2018-02-28 22:34:53 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - File Created Successfully.
+""2018-02-28 22:34:53 [main] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/2014-02-24.txt
+""2018-02-28 22:34:53 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Successfully file deleted.
+""2018-02-28 23:15:52 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Starting CashExchangeControllerTest on Ahiladass-MacBook-Pro.local with PID 2583 (started by burusoth in /Users/burusoth/Projects/Cash-Exchange)
+""2018-02-28 23:15:52 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - No active profile set, falling back to default profiles: default
+""2018-02-28 23:15:55 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: b5411dad-0189-4835-8d2a-b8836cad7f5d
+
+""2018-02-28 23:15:55 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-02-28 23:15:55 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@35835fa, org.springframework.security.web.context.SecurityContextPersistenceFilter@141e879d, org.springframework.security.web.header.HeaderWriterFilter@646811d6, org.springframework.security.web.authentication.logout.LogoutFilter@1948ea69, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@27c04377, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1704f67f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1949309d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@56f71edb, org.springframework.security.web.session.SessionManagementFilter@178270b2, org.springframework.security.web.access.ExceptionTranslationFilter@66ba7e45, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1f38957]
+""2018-02-28 23:15:55 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+""2018-02-28 23:15:55 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+""2018-02-28 23:15:55 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 25 ms
+""2018-02-28 23:15:56 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Started CashExchangeControllerTest in 3.862 seconds (JVM running for 5.248)
+""2018-02-28 23:31:44 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Starting CashExchangeControllerTest on Ahiladass-MacBook-Pro.local with PID 2642 (started by burusoth in /Users/burusoth/Projects/Cash-Exchange)
+""2018-02-28 23:31:44 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - No active profile set, falling back to default profiles: default
+""2018-02-28 23:31:46 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 992aa464-c03f-4df9-af0c-3b72ac6167f7
+
+""2018-02-28 23:31:46 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-02-28 23:31:46 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6fd1660, org.springframework.security.web.context.SecurityContextPersistenceFilter@15fb7a32, org.springframework.security.web.header.HeaderWriterFilter@2a389173, org.springframework.security.web.authentication.logout.LogoutFilter@515ebef3, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@12f8b1d8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42e22a53, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70242f38, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a6c18ad, org.springframework.security.web.session.SessionManagementFilter@1704f67f, org.springframework.security.web.access.ExceptionTranslationFilter@15fdd1f2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@62e7dffa]
+""2018-02-28 23:31:46 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+""2018-02-28 23:31:46 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+""2018-02-28 23:31:46 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 27 ms
+""2018-02-28 23:31:47 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Started CashExchangeControllerTest in 3.692 seconds (JVM running for 4.915)
+""2018-02-28 23:50:54 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Starting CashExchangeControllerTest on Ahiladass-MacBook-Pro.local with PID 2701 (started by burusoth in /Users/burusoth/Projects/Cash-Exchange)
+""2018-02-28 23:50:54 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - No active profile set, falling back to default profiles: default
+""2018-02-28 23:50:57 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: b89d3cb7-2a8f-47e2-a3fc-21ffa426e45c
+
+""2018-02-28 23:50:57 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-02-28 23:50:57 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@15bc339, org.springframework.security.web.context.SecurityContextPersistenceFilter@2bf94401, org.springframework.security.web.header.HeaderWriterFilter@67403656, org.springframework.security.web.authentication.logout.LogoutFilter@336365bc, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5e268ce6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4349754, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@723ed581, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7e75bf2d, org.springframework.security.web.session.SessionManagementFilter@65fd6708, org.springframework.security.web.access.ExceptionTranslationFilter@545607f2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3db64bd4]
+""2018-02-28 23:50:57 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+""2018-02-28 23:50:57 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+""2018-02-28 23:50:57 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 17 ms
+""2018-02-28 23:50:57 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Started CashExchangeControllerTest in 3.506 seconds (JVM running for 4.924)
+""2018-02-28 23:52:29 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Starting CashExchangeControllerTest on Ahiladass-MacBook-Pro.local with PID 2707 (started by burusoth in /Users/burusoth/Projects/Cash-Exchange)
+""2018-02-28 23:52:29 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - No active profile set, falling back to default profiles: default
+""2018-02-28 23:52:31 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: e5b8eaac-6579-4627-b941-e3e1c3bc0620
+
+""2018-02-28 23:52:31 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-02-28 23:52:31 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5fb7183b, org.springframework.security.web.context.SecurityContextPersistenceFilter@515ebef3, org.springframework.security.web.header.HeaderWriterFilter@48c3205a, org.springframework.security.web.authentication.logout.LogoutFilter@1ba05e38, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@773e2eb5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@39109136, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@746cd757, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@476a736d, org.springframework.security.web.session.SessionManagementFilter@49798e84, org.springframework.security.web.access.ExceptionTranslationFilter@31da6b2e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2822c6ff]
+""2018-02-28 23:52:31 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+""2018-02-28 23:52:31 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+""2018-02-28 23:52:31 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 14 ms
+""2018-02-28 23:52:31 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Started CashExchangeControllerTest in 3.336 seconds (JVM running for 4.657)
+""2018-02-28 23:53:00 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Starting CashExchangeControllerTest on Ahiladass-MacBook-Pro.local with PID 2712 (started by burusoth in /Users/burusoth/Projects/Cash-Exchange)
+""2018-02-28 23:53:00 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - No active profile set, falling back to default profiles: default
+""2018-02-28 23:53:02 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 7e431b49-e632-4a9a-8abb-2d90a5876954
+
+""2018-02-28 23:53:02 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-02-28 23:53:02 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@352e787a, org.springframework.security.web.context.SecurityContextPersistenceFilter@749ab7b4, org.springframework.security.web.header.HeaderWriterFilter@27c04377, org.springframework.security.web.authentication.logout.LogoutFilter@5b94ccbc, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4074023c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2bf94401, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6c298dc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@159a48a6, org.springframework.security.web.session.SessionManagementFilter@2098d37d, org.springframework.security.web.access.ExceptionTranslationFilter@3015db78, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7159139f]
+""2018-02-28 23:53:02 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+""2018-02-28 23:53:02 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+""2018-02-28 23:53:02 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 17 ms
+""2018-02-28 23:53:03 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Started CashExchangeControllerTest in 3.522 seconds (JVM running for 4.9)
+""2018-02-28 23:53:19 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Starting CashExchangeControllerTest on Ahiladass-MacBook-Pro.local with PID 2718 (started by burusoth in /Users/burusoth/Projects/Cash-Exchange)
+""2018-02-28 23:53:19 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - No active profile set, falling back to default profiles: default
+""2018-02-28 23:53:21 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: d2837baf-b83a-40ad-a1d2-1ab4296908d4
+
+""2018-02-28 23:53:22 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-02-28 23:53:22 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@37c2eacb, org.springframework.security.web.context.SecurityContextPersistenceFilter@2098d37d, org.springframework.security.web.header.HeaderWriterFilter@515ebef3, org.springframework.security.web.authentication.logout.LogoutFilter@3b7b05a8, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7351a16e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@65fd6708, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@b967222, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@232cce0, org.springframework.security.web.session.SessionManagementFilter@12f8b1d8, org.springframework.security.web.access.ExceptionTranslationFilter@47e4d9d0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@476a736d]
+""2018-02-28 23:53:22 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+""2018-02-28 23:53:22 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+""2018-02-28 23:53:22 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 35 ms
+""2018-02-28 23:53:22 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Started CashExchangeControllerTest in 3.566 seconds (JVM running for 4.779)
+""2018-02-28 23:55:49 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Starting CashExchangeControllerTest on Ahiladass-MacBook-Pro.local with PID 2731 (started by burusoth in /Users/burusoth/Projects/Cash-Exchange)
+""2018-02-28 23:55:49 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - No active profile set, falling back to default profiles: default
+""2018-02-28 23:55:52 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 371c0dce-4d55-44b4-bc98-a9b61149f842
+
+""2018-02-28 23:55:52 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-02-28 23:55:52 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@3ed0918d, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5e268ce6, org.springframework.security.web.context.SecurityContextPersistenceFilter@6c298dc, org.springframework.security.web.header.HeaderWriterFilter@77b9d0c7, org.springframework.security.web.csrf.CsrfFilter@70242f38, org.springframework.security.web.authentication.logout.LogoutFilter@3ac04654, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@723ed581, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3d36dff4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@66ec9390, org.springframework.security.web.session.SessionManagementFilter@b967222, org.springframework.security.web.access.ExceptionTranslationFilter@746cd757]
+""2018-02-28 23:55:52 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+""2018-02-28 23:55:52 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+""2018-02-28 23:55:52 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 13 ms
+""2018-02-28 23:55:52 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Started CashExchangeControllerTest in 3.611 seconds (JVM running for 4.871)
+""2018-02-28 23:57:40 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Starting CashExchangeControllerTest on Ahiladass-MacBook-Pro.local with PID 2875 (started by burusoth in /Users/burusoth/Projects/Cash-Exchange)
+""2018-02-28 23:57:40 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - No active profile set, falling back to default profiles: default
+""2018-02-28 23:57:45 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: b78bbcdc-0d07-4551-8dd2-0e422eee057d
+
+""2018-02-28 23:57:45 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-02-28 23:57:45 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@127f9161, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2bf94401, org.springframework.security.web.context.SecurityContextPersistenceFilter@2d746ce4, org.springframework.security.web.header.HeaderWriterFilter@1949309d, org.springframework.security.web.csrf.CsrfFilter@42435b98, org.springframework.security.web.authentication.logout.LogoutFilter@65fd6708, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1948ea69, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34dc85a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2532b351, org.springframework.security.web.session.SessionManagementFilter@121c54fa, org.springframework.security.web.access.ExceptionTranslationFilter@257cc1fc]
+""2018-02-28 23:57:45 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+""2018-02-28 23:57:45 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+""2018-02-28 23:57:45 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 31 ms
+""2018-02-28 23:57:45 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Started CashExchangeControllerTest in 5.681 seconds (JVM running for 7.132)
+""2018-02-28 23:59:41 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Starting CashExchangeControllerTest on Ahiladass-MacBook-Pro.local with PID 2907 (started by burusoth in /Users/burusoth/Projects/Cash-Exchange)
+""2018-02-28 23:59:41 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - No active profile set, falling back to default profiles: default
+""2018-02-28 23:59:43 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: e29c6260-5c19-47ba-af53-81df1c4ad433
+
+""2018-02-28 23:59:43 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-02-28 23:59:43 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@336365bc, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@38eb2fb0, org.springframework.security.web.context.SecurityContextPersistenceFilter@2bf94401, org.springframework.security.web.header.HeaderWriterFilter@67403656, org.springframework.security.web.csrf.CsrfFilter@42e22a53, org.springframework.security.web.authentication.logout.LogoutFilter@5b94ccbc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4349754, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@796065aa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4567e53d, org.springframework.security.web.session.SessionManagementFilter@65fd6708, org.springframework.security.web.access.ExceptionTranslationFilter@39109136]
+""2018-02-28 23:59:43 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+""2018-02-28 23:59:43 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+""2018-02-28 23:59:43 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 14 ms
+""2018-02-28 23:59:43 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Started CashExchangeControllerTest in 3.698 seconds (JVM running for 5.026)
+""2018-03-01 00:01:59 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Starting CashExchangeControllerTest on Ahiladass-MacBook-Pro.local with PID 2918 (started by burusoth in /Users/burusoth/Projects/Cash-Exchange)
+""2018-03-01 00:01:59 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - No active profile set, falling back to default profiles: default
+""2018-03-01 00:02:02 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: fa58e18e-1216-4bec-82df-712b7f6c4326
+
+""2018-03-01 00:02:02 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-03-01 00:02:02 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@3b0ee03a, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1ba05e38, org.springframework.security.web.context.SecurityContextPersistenceFilter@3015db78, org.springframework.security.web.header.HeaderWriterFilter@2a22ad2b, org.springframework.security.web.csrf.CsrfFilter@15fdd1f2, org.springframework.security.web.authentication.logout.LogoutFilter@6a2eea2a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@545607f2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@ae372b9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6c298dc, org.springframework.security.web.session.SessionManagementFilter@47e4d9d0, org.springframework.security.web.access.ExceptionTranslationFilter@31da6b2e]
+""2018-03-01 00:02:02 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+""2018-03-01 00:02:02 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+""2018-03-01 00:02:02 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 13 ms
+""2018-03-01 00:02:02 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Started CashExchangeControllerTest in 4.127 seconds (JVM running for 5.348)
+""2018-03-01 00:03:30 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Starting CashExchangeControllerTest on Ahiladass-MacBook-Pro.local with PID 2926 (started by burusoth in /Users/burusoth/Projects/Cash-Exchange)
+""2018-03-01 00:03:30 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - No active profile set, falling back to default profiles: default
+""2018-03-01 00:03:33 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 1a45602f-f339-4954-97e2-ce7ea6922b59
+
+""2018-03-01 00:03:33 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-03-01 00:03:33 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@2c306a57, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@773e2eb5, org.springframework.security.web.context.SecurityContextPersistenceFilter@7f9ab969, org.springframework.security.web.header.HeaderWriterFilter@47e4d9d0, org.springframework.security.web.csrf.CsrfFilter@795fd838, org.springframework.security.web.authentication.logout.LogoutFilter@796065aa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@746cd757, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4349754, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@d8948cd, org.springframework.security.web.session.SessionManagementFilter@34dc85a, org.springframework.security.web.access.ExceptionTranslationFilter@2d746ce4]
+""2018-03-01 00:03:33 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+""2018-03-01 00:03:33 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+""2018-03-01 00:03:33 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 11 ms
+""2018-03-01 00:03:33 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Started CashExchangeControllerTest in 3.52 seconds (JVM running for 4.735)
 "
