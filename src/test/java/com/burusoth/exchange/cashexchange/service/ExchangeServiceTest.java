@@ -2,13 +2,14 @@ package com.burusoth.exchange.cashexchange.service;
 
 import com.burusoth.exchange.cashexchange.data.ExchangeFileReader;
 import com.burusoth.exchange.cashexchange.exception.FileInputFormatException;
+import com.burusoth.exchange.cashexchange.exception.InvalidCurrencyException;
+import com.burusoth.exchange.cashexchange.response.ExchangeRate;
 import com.burusoth.exchange.cashexchange.util.ParserUtil;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -44,5 +45,40 @@ public class ExchangeServiceTest {
         // assert returned values
         Map<String, Double> rates = exchangeService.getAllExchangeRate(date);
         assertTrue(rates.containsKey("SGD"));
+    }
+
+    @Test
+    public void getExchangeRateMethodShouldReturnConvertedRateBetweenToCurrencies() throws IOException, FileInputFormatException, InvalidCurrencyException {
+        String date = "2010-02-24";
+        // mock exchange file reader of exchange service
+        List<String> list = new LinkedList<>();
+        HashMap<String,Double> exchangeRates = new HashMap<>();
+        exchangeRates.put("SGD",1.04);
+        exchangeRates.put("LKR",5.04);
+        list.add("1 SGD traded at 1.04 times USD");
+        list.add("1 SGD traded at 5.04 times LKR");
+        Mockito.when(exchangeFileReader.readExchangeRate(date)).thenReturn(list);
+        Mockito.when(parserUtil.parseData(list)).thenReturn(exchangeRates);
+
+        ExchangeRate exchangeRate = exchangeService.getExchangeRate(date,"SGD","LKR");
+        assertTrue(exchangeRate.getCurrency1() == "SGD");
+        assertTrue(exchangeRate.getCurrency2() == "LKR");
+        assertTrue(exchangeRate.getExchangeRate() == 1.04/5.04);
+    }
+
+    @Test(expected = InvalidCurrencyException.class)
+    public void getExchangeRateMethodShouldThrowInvalidCurrencyCodeException() throws IOException, FileInputFormatException, InvalidCurrencyException {
+        String date = "2010-02-24";
+        // mock exchange file reader of exchange service
+        List<String> list = new LinkedList<>();
+        HashMap<String,Double> exchangeRates = new HashMap<>();
+        exchangeRates.put("USD",1.04);
+        exchangeRates.put("LKR",5.04);
+        list.add("1 USD traded at 1.04 times USD");
+        list.add("1 SGD traded at 5.04 times LKR");
+        Mockito.when(exchangeFileReader.readExchangeRate(date)).thenReturn(list);
+        Mockito.when(parserUtil.parseData(list)).thenReturn(exchangeRates);
+
+        exchangeService.getExchangeRate(date,"SGD","LKR");
     }
 }

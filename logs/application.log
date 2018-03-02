@@ -957,4 +957,1340 @@ Using default security password: c89bac32-45d6-4df4-b3ea-99601eaa936f
 ""2018-03-01 00:56:12 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 26 ms
 ""2018-03-01 00:56:12 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Started CashExchangeControllerTest in 4.821 seconds (JVM running for 5.991)
 ""2018-03-01 00:56:12 [main] INFO  c.b.e.c.c.CashExchangeController - Calling service class for exchange rates
+""2018-03-02 10:43:09 [main] INFO  c.b.e.c.CashExchangeApplicationTests - Starting CashExchangeApplicationTests on NIDIGIABURU8881 with PID 9020 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-02 10:43:09 [main] INFO  c.b.e.c.CashExchangeApplicationTests - No active profile set, falling back to default profiles: default
+""2018-03-02 10:43:11 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$403f7f3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-03-02 10:43:11 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2018-03-02 10:43:12 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 7176e965-90cd-44f7-9619-26ce049714a5
+
+""2018-03-02 10:43:12 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7cab1508, org.springframework.security.web.context.SecurityContextPersistenceFilter@66ec9390, org.springframework.security.web.header.HeaderWriterFilter@5b94ccbc, org.springframework.security.web.csrf.CsrfFilter@27c04377, org.springframework.security.web.authentication.logout.LogoutFilter@aac3f4e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3c0fbd3a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@766a4535, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6a84bc3f, org.springframework.security.web.session.SessionManagementFilter@4074023c, org.springframework.security.web.access.ExceptionTranslationFilter@1436a7ab, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@385ef531]
+""2018-03-02 10:43:14 [main] INFO  c.b.e.c.CashExchangeApplicationTests - Started CashExchangeApplicationTests in 5.95 seconds (JVM running for 9.736)
+""2018-03-02 10:43:14 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Starting CashExchangeControllerTest on NIDIGIABURU8881 with PID 9020 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-02 10:43:14 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - No active profile set, falling back to default profiles: default
+""2018-03-02 10:43:15 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: d54219a9-cd35-451d-b892-45ced7d13749
+
+""2018-03-02 10:43:15 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-03-02 10:43:16 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@3af7d855, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@77049094, org.springframework.security.web.context.SecurityContextPersistenceFilter@12e5da86, org.springframework.security.web.header.HeaderWriterFilter@3ad85136, org.springframework.security.web.csrf.CsrfFilter@7f93dd4e, org.springframework.security.web.authentication.logout.LogoutFilter@6fa13e6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6535117e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1d1cbd0f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@f88bfbe, org.springframework.security.web.session.SessionManagementFilter@737d100a, org.springframework.security.web.access.ExceptionTranslationFilter@5ad5be4a]
+""2018-03-02 10:43:16 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+""2018-03-02 10:43:16 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+""2018-03-02 10:43:16 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 24 ms
+""2018-03-02 10:43:16 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Started CashExchangeControllerTest in 1.813 seconds (JVM running for 11.639)
+""2018-03-02 10:43:16 [main] INFO  c.b.e.c.c.CashExchangeController - Calling service class for exchange rates
+""2018-03-02 10:43:16 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Creating file for testing
+""2018-03-02 10:43:16 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - File Created Successfully.
+""2018-03-02 10:43:16 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Appended two lines of text to the file for testing
+""2018-03-02 10:43:16 [main] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/2014-02-24.txt
+""2018-03-02 10:43:16 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Successfully file deleted.
+""2018-03-02 10:43:16 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Creating file for testing
+""2018-03-02 10:43:16 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - File Created Successfully.
+""2018-03-02 10:43:16 [main] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/2014-02-24.txt
+""2018-03-02 10:43:16 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Successfully file deleted.
+""2018-03-02 10:43:16 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Creating file for testing
+""2018-03-02 10:43:16 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - File Created Successfully.
+""2018-03-02 10:43:16 [main] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/2014-02-24.txt
+""2018-03-02 10:43:16 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Successfully file deleted.
+""2018-03-02 10:43:16 [main] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-02 10:43:16 [main] INFO  c.b.e.c.service.ExchangeService - Parsing received records
+""2018-03-02 11:22:55 [main] INFO  c.b.e.c.service.ExchangeServiceTest - Starting ExchangeServiceTest on NIDIGIABURU8881 with PID 6252 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-02 11:22:55 [main] INFO  c.b.e.c.service.ExchangeServiceTest - No active profile set, falling back to default profiles: default
+""2018-03-02 11:22:57 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$afc0abc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-03-02 11:22:57 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2018-03-02 11:22:58 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: a542af1e-c40a-4872-bd71-0562d5908868
+
+""2018-03-02 11:22:58 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@392a04e7, org.springframework.security.web.context.SecurityContextPersistenceFilter@4e8e8621, org.springframework.security.web.header.HeaderWriterFilter@4c0884e8, org.springframework.security.web.csrf.CsrfFilter@c4c0b41, org.springframework.security.web.authentication.logout.LogoutFilter@79a1728c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3af356f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@75b3673, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7f02251, org.springframework.security.web.session.SessionManagementFilter@3e83c18, org.springframework.security.web.access.ExceptionTranslationFilter@11a7ba62, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@56ba8773]
+""2018-03-02 11:22:59 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+""2018-03-02 11:22:59 [main] ERROR o.s.boot.SpringApplication - Application startup failed
+"org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'cashExchangeController' method 
+public org.springframework.http.ResponseEntity<?> com.burusoth.exchange.cashexchange.controller.CashExchangeController.exchange(java.lang.String,java.lang.String,java.lang.String)
+to {[/api/exchange/{date}],methods=[GET]}: There is already 'cashExchangeController' bean method
+public org.springframework.http.ResponseEntity<?> com.burusoth.exchange.cashexchange.controller.CashExchangeController.exchange(java.lang.String) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'cashExchangeController' method 
+public org.springframework.http.ResponseEntity<?> com.burusoth.exchange.cashexchange.controller.CashExchangeController.exchange(java.lang.String,java.lang.String,java.lang.String)
+to {[/api/exchange/{date}],methods=[GET]}: There is already 'cashExchangeController' bean method
+public org.springframework.http.ResponseEntity<?> com.burusoth.exchange.cashexchange.controller.CashExchangeController.exchange(java.lang.String) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:576)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:540)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:264)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:250)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:214)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 39 common frames omitted
+"2018-03-02 11:22:59 [main] ERROR o.s.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@11c20519] to prepare test instance [com.burusoth.exchange.cashexchange.service.ExchangeServiceTest@7c1812b3]
+"java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'cashExchangeController' method 
+public org.springframework.http.ResponseEntity<?> com.burusoth.exchange.cashexchange.controller.CashExchangeController.exchange(java.lang.String,java.lang.String,java.lang.String)
+to {[/api/exchange/{date}],methods=[GET]}: There is already 'cashExchangeController' bean method
+public org.springframework.http.ResponseEntity<?> com.burusoth.exchange.cashexchange.controller.CashExchangeController.exchange(java.lang.String) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 24 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'cashExchangeController' method 
+public org.springframework.http.ResponseEntity<?> com.burusoth.exchange.cashexchange.controller.CashExchangeController.exchange(java.lang.String,java.lang.String,java.lang.String)
+to {[/api/exchange/{date}],methods=[GET]}: There is already 'cashExchangeController' bean method
+public org.springframework.http.ResponseEntity<?> com.burusoth.exchange.cashexchange.controller.CashExchangeController.exchange(java.lang.String) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:576)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:540)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:264)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:250)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:214)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 39 common frames omitted
+"2018-03-02 11:28:46 [main] INFO  c.b.e.c.service.ExchangeServiceTest - Starting ExchangeServiceTest on NIDIGIABURU8881 with PID 3292 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-02 11:28:46 [main] INFO  c.b.e.c.service.ExchangeServiceTest - No active profile set, falling back to default profiles: default
+""2018-03-02 11:28:48 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$5f9cb2da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-03-02 11:28:48 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2018-03-02 11:28:49 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 809452c2-fd3a-4ce9-80cd-21a2e4658800
+
+""2018-03-02 11:28:49 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b2a30d, org.springframework.security.web.context.SecurityContextPersistenceFilter@340b7ef6, org.springframework.security.web.header.HeaderWriterFilter@37095ded, org.springframework.security.web.csrf.CsrfFilter@7a18e8d, org.springframework.security.web.authentication.logout.LogoutFilter@2b0b4d53, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6050462a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e83c18, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@322803db, org.springframework.security.web.session.SessionManagementFilter@56da52a7, org.springframework.security.web.access.ExceptionTranslationFilter@368d5c00, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4cd1c1dc]
+""2018-03-02 11:28:50 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+""2018-03-02 11:28:50 [main] ERROR o.s.boot.SpringApplication - Application startup failed
+"org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'cashExchangeController' method 
+public org.springframework.http.ResponseEntity<?> com.burusoth.exchange.cashexchange.controller.CashExchangeController.exchange(java.lang.String,java.lang.String,java.lang.String)
+to {[/api/exchange/{date}],methods=[GET]}: There is already 'cashExchangeController' bean method
+public org.springframework.http.ResponseEntity<?> com.burusoth.exchange.cashexchange.controller.CashExchangeController.exchange(java.lang.String) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'cashExchangeController' method 
+public org.springframework.http.ResponseEntity<?> com.burusoth.exchange.cashexchange.controller.CashExchangeController.exchange(java.lang.String,java.lang.String,java.lang.String)
+to {[/api/exchange/{date}],methods=[GET]}: There is already 'cashExchangeController' bean method
+public org.springframework.http.ResponseEntity<?> com.burusoth.exchange.cashexchange.controller.CashExchangeController.exchange(java.lang.String) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:576)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:540)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:264)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:250)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:214)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 39 common frames omitted
+"2018-03-02 11:28:50 [main] ERROR o.s.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@11c20519] to prepare test instance [com.burusoth.exchange.cashexchange.service.ExchangeServiceTest@26722665]
+"java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'cashExchangeController' method 
+public org.springframework.http.ResponseEntity<?> com.burusoth.exchange.cashexchange.controller.CashExchangeController.exchange(java.lang.String,java.lang.String,java.lang.String)
+to {[/api/exchange/{date}],methods=[GET]}: There is already 'cashExchangeController' bean method
+public org.springframework.http.ResponseEntity<?> com.burusoth.exchange.cashexchange.controller.CashExchangeController.exchange(java.lang.String) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 24 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'cashExchangeController' method 
+public org.springframework.http.ResponseEntity<?> com.burusoth.exchange.cashexchange.controller.CashExchangeController.exchange(java.lang.String,java.lang.String,java.lang.String)
+to {[/api/exchange/{date}],methods=[GET]}: There is already 'cashExchangeController' bean method
+public org.springframework.http.ResponseEntity<?> com.burusoth.exchange.cashexchange.controller.CashExchangeController.exchange(java.lang.String) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:576)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:540)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:264)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:250)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:214)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 39 common frames omitted
+"2018-03-02 11:31:21 [main] INFO  c.b.e.c.service.ExchangeServiceTest - Starting ExchangeServiceTest on NIDIGIABURU8881 with PID 9028 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-02 11:31:21 [main] INFO  c.b.e.c.service.ExchangeServiceTest - No active profile set, falling back to default profiles: default
+""2018-03-02 11:31:23 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$e18215a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-03-02 11:31:23 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2018-03-02 11:31:24 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 07b04da7-f809-40d8-8ec0-5d75eca070de
+
+""2018-03-02 11:31:25 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b022357, org.springframework.security.web.context.SecurityContextPersistenceFilter@7578e06a, org.springframework.security.web.header.HeaderWriterFilter@304a3655, org.springframework.security.web.csrf.CsrfFilter@6075b2d3, org.springframework.security.web.authentication.logout.LogoutFilter@c446b14, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@56da52a7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@73877e19, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6f8e0cee, org.springframework.security.web.session.SessionManagementFilter@43826ec, org.springframework.security.web.access.ExceptionTranslationFilter@76b224cd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@8a62297]
+""2018-03-02 11:31:26 [main] INFO  c.b.e.c.service.ExchangeServiceTest - Started ExchangeServiceTest in 5.032 seconds (JVM running for 6.247)
+""2018-03-02 11:31:26 [main] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-02 11:31:26 [main] INFO  c.b.e.c.service.ExchangeService - Parsing received records
+""2018-03-02 11:32:25 [main] INFO  c.b.e.c.service.ExchangeServiceTest - Starting ExchangeServiceTest on NIDIGIABURU8881 with PID 1096 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-02 11:32:25 [main] INFO  c.b.e.c.service.ExchangeServiceTest - No active profile set, falling back to default profiles: default
+""2018-03-02 11:32:27 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f13c34f8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-03-02 11:32:27 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2018-03-02 11:32:28 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: d3369923-e193-4f32-8d28-3bca850adb25
+
+""2018-03-02 11:32:28 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@614aeccc, org.springframework.security.web.context.SecurityContextPersistenceFilter@56da52a7, org.springframework.security.web.header.HeaderWriterFilter@12a160c2, org.springframework.security.web.csrf.CsrfFilter@997d532, org.springframework.security.web.authentication.logout.LogoutFilter@4443ef6f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@11a7ba62, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5bfc257, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5116ac09, org.springframework.security.web.session.SessionManagementFilter@6b63d445, org.springframework.security.web.access.ExceptionTranslationFilter@6dd93a21, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1763992e]
+""2018-03-02 11:32:30 [main] INFO  c.b.e.c.service.ExchangeServiceTest - Started ExchangeServiceTest in 4.813 seconds (JVM running for 6.078)
+""2018-03-02 11:32:30 [main] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-02 11:32:30 [main] INFO  c.b.e.c.service.ExchangeService - Parsing received records
+""2018-03-02 11:33:34 [main] INFO  c.b.e.c.service.ExchangeServiceTest - Starting ExchangeServiceTest on NIDIGIABURU8881 with PID 2696 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-02 11:33:34 [main] INFO  c.b.e.c.service.ExchangeServiceTest - No active profile set, falling back to default profiles: default
+""2018-03-02 11:33:36 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$9b55ca8d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-03-02 11:33:36 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2018-03-02 11:33:37 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 6bc67cf4-1c66-4345-80b8-2cac55a68112
+
+""2018-03-02 11:33:37 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1763992e, org.springframework.security.web.context.SecurityContextPersistenceFilter@368d5c00, org.springframework.security.web.header.HeaderWriterFilter@7a799159, org.springframework.security.web.csrf.CsrfFilter@56de6d6b, org.springframework.security.web.authentication.logout.LogoutFilter@11841b15, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@aa10649, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@30b2b76f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5c92166b, org.springframework.security.web.session.SessionManagementFilter@6dd93a21, org.springframework.security.web.access.ExceptionTranslationFilter@c4c0b41, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7a6ebe1e]
+""2018-03-02 11:33:38 [main] INFO  c.b.e.c.service.ExchangeServiceTest - Started ExchangeServiceTest in 4.931 seconds (JVM running for 6.131)
+""2018-03-02 11:33:39 [main] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-02 11:33:39 [main] INFO  c.b.e.c.service.ExchangeService - Parsing received records
+""2018-03-02 11:34:08 [main] INFO  c.b.e.c.service.ExchangeServiceTest - Starting ExchangeServiceTest on NIDIGIABURU8881 with PID 5220 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-02 11:34:08 [main] INFO  c.b.e.c.service.ExchangeServiceTest - No active profile set, falling back to default profiles: default
+""2018-03-02 11:34:10 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$afc0abc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-03-02 11:34:10 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2018-03-02 11:34:11 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 35d78f55-3887-4432-86d9-30b8438d7995
+
+""2018-03-02 11:34:11 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@392a04e7, org.springframework.security.web.context.SecurityContextPersistenceFilter@4e8e8621, org.springframework.security.web.header.HeaderWriterFilter@4c0884e8, org.springframework.security.web.csrf.CsrfFilter@c4c0b41, org.springframework.security.web.authentication.logout.LogoutFilter@79a1728c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3af356f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@75b3673, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7f02251, org.springframework.security.web.session.SessionManagementFilter@3e83c18, org.springframework.security.web.access.ExceptionTranslationFilter@11a7ba62, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@56ba8773]
+""2018-03-02 11:34:12 [main] INFO  c.b.e.c.service.ExchangeServiceTest - Started ExchangeServiceTest in 4.75 seconds (JVM running for 6.066)
+""2018-03-02 11:34:12 [main] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-02 11:34:12 [main] INFO  c.b.e.c.service.ExchangeService - Parsing received records
+""2018-03-02 11:34:55 [main] INFO  c.b.e.c.service.ExchangeServiceTest - Starting ExchangeServiceTest on NIDIGIABURU8881 with PID 7868 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-02 11:34:55 [main] INFO  c.b.e.c.service.ExchangeServiceTest - No active profile set, falling back to default profiles: default
+""2018-03-02 11:34:57 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$b502813] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-03-02 11:34:57 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2018-03-02 11:34:58 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: f6a4de6f-cf2f-4526-bda9-7fcfd3dca816
+
+""2018-03-02 11:34:58 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3df978b9, org.springframework.security.web.context.SecurityContextPersistenceFilter@77ee25f1, org.springframework.security.web.header.HeaderWriterFilter@c4c0b41, org.springframework.security.web.csrf.CsrfFilter@13a37e2a, org.springframework.security.web.authentication.logout.LogoutFilter@30404dba, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@57b9e423, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@43826ec, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7906578e, org.springframework.security.web.session.SessionManagementFilter@53093491, org.springframework.security.web.access.ExceptionTranslationFilter@3bcd426c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4bee18dc]
+""2018-03-02 11:34:59 [main] INFO  c.b.e.c.service.ExchangeServiceTest - Started ExchangeServiceTest in 5.182 seconds (JVM running for 6.518)
+""2018-03-02 11:34:59 [main] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-02 11:34:59 [main] INFO  c.b.e.c.service.ExchangeService - Parsing received records
+""2018-03-02 11:37:26 [main] INFO  c.b.e.c.service.ExchangeServiceTest - Starting ExchangeServiceTest on NIDIGIABURU8881 with PID 1440 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-02 11:37:26 [main] INFO  c.b.e.c.service.ExchangeServiceTest - No active profile set, falling back to default profiles: default
+""2018-03-02 11:37:29 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$de3e2d1a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-03-02 11:37:29 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2018-03-02 11:37:30 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 66d9b541-1d2f-49e9-8b6d-77a6c54b5a95
+
+""2018-03-02 11:37:30 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5116ac09, org.springframework.security.web.context.SecurityContextPersistenceFilter@23ee75c5, org.springframework.security.web.header.HeaderWriterFilter@aa10649, org.springframework.security.web.csrf.CsrfFilter@273842a6, org.springframework.security.web.authentication.logout.LogoutFilter@7e46d648, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@340b7ef6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34523d46, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1bc425e7, org.springframework.security.web.session.SessionManagementFilter@7578e06a, org.springframework.security.web.access.ExceptionTranslationFilter@57b9e423, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5c92166b]
+""2018-03-02 11:37:31 [main] INFO  c.b.e.c.service.ExchangeServiceTest - Started ExchangeServiceTest in 5.116 seconds (JVM running for 6.303)
+""2018-03-02 11:37:31 [main] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-02 11:37:31 [main] INFO  c.b.e.c.service.ExchangeService - Parsing received records
+""2018-03-02 11:38:03 [main] INFO  c.b.e.c.CashExchangeApplicationTests - Starting CashExchangeApplicationTests on NIDIGIABURU8881 with PID 5968 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-02 11:38:03 [main] INFO  c.b.e.c.CashExchangeApplicationTests - No active profile set, falling back to default profiles: default
+""2018-03-02 11:38:05 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d09f1621] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-03-02 11:38:05 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2018-03-02 11:38:06 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 8dccb5ff-12e7-46d7-9400-bb0b5f9f9345
+
+""2018-03-02 11:38:06 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@59532566, org.springframework.security.web.context.SecurityContextPersistenceFilter@29ea78b1, org.springframework.security.web.header.HeaderWriterFilter@2e3cdec2, org.springframework.security.web.csrf.CsrfFilter@15bc339, org.springframework.security.web.authentication.logout.LogoutFilter@2ab2710, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7baf6acf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2ce45a7b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@dca2615, org.springframework.security.web.session.SessionManagementFilter@3fa76c61, org.springframework.security.web.access.ExceptionTranslationFilter@451f87af, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@58a120b0]
+""2018-03-02 11:38:07 [main] INFO  c.b.e.c.CashExchangeApplicationTests - Started CashExchangeApplicationTests in 4.74 seconds (JVM running for 7.278)
+""2018-03-02 11:38:07 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Starting CashExchangeControllerTest on NIDIGIABURU8881 with PID 5968 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-02 11:38:07 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - No active profile set, falling back to default profiles: default
+""2018-03-02 11:38:08 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 0710f112-decb-4e96-9031-68a70fe0286d
+
+""2018-03-02 11:38:08 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-03-02 11:38:08 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@58867cd5, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40e32762, org.springframework.security.web.context.SecurityContextPersistenceFilter@2c05ff9d, org.springframework.security.web.header.HeaderWriterFilter@2687725a, org.springframework.security.web.csrf.CsrfFilter@5875de6a, org.springframework.security.web.authentication.logout.LogoutFilter@5b7c8930, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@33956d1a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2e1ddc90, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5a8ab2, org.springframework.security.web.session.SessionManagementFilter@5a75ec37, org.springframework.security.web.access.ExceptionTranslationFilter@608fe01f]
+""2018-03-02 11:38:08 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+""2018-03-02 11:38:08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+""2018-03-02 11:38:08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 20 ms
+""2018-03-02 11:38:09 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Started CashExchangeControllerTest in 1.363 seconds (JVM running for 8.685)
+""2018-03-02 11:38:09 [main] INFO  c.b.e.c.c.CashExchangeController - Calling service class for exchange rates
+""2018-03-02 11:38:09 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Creating file for testing
+""2018-03-02 11:38:09 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - File Created Successfully.
+""2018-03-02 11:38:09 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Appended two lines of text to the file for testing
+""2018-03-02 11:38:09 [main] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/2014-02-24.txt
+""2018-03-02 11:38:09 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Successfully file deleted.
+""2018-03-02 11:38:09 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Creating file for testing
+""2018-03-02 11:38:09 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - File Created Successfully.
+""2018-03-02 11:38:09 [main] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/2014-02-24.txt
+""2018-03-02 11:38:09 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Successfully file deleted.
+""2018-03-02 11:38:09 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Creating file for testing
+""2018-03-02 11:38:09 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - File Created Successfully.
+""2018-03-02 11:38:09 [main] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/2014-02-24.txt
+""2018-03-02 11:38:09 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Successfully file deleted.
+""2018-03-02 11:38:09 [main] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-02 11:38:09 [main] INFO  c.b.e.c.service.ExchangeService - Parsing received records
+""2018-03-02 11:38:09 [main] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-02 11:38:09 [main] INFO  c.b.e.c.service.ExchangeService - Parsing received records
+""2018-03-02 11:38:09 [main] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-02 11:38:09 [main] INFO  c.b.e.c.service.ExchangeService - Parsing received records
+""2018-03-02 11:39:04 [main] INFO  c.b.e.c.CashExchangeApplicationTests - Starting CashExchangeApplicationTests on NIDIGIABURU8881 with PID 8176 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-02 11:39:04 [main] INFO  c.b.e.c.CashExchangeApplicationTests - No active profile set, falling back to default profiles: default
+""2018-03-02 11:39:06 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$c6e3c761] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-03-02 11:39:06 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2018-03-02 11:39:07 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 45c4c2c3-985a-4d78-91cd-8e69ce8aeb9a
+
+""2018-03-02 11:39:07 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3051e0b2, org.springframework.security.web.context.SecurityContextPersistenceFilter@1f38957, org.springframework.security.web.header.HeaderWriterFilter@3721177d, org.springframework.security.web.csrf.CsrfFilter@3e7dfd44, org.springframework.security.web.authentication.logout.LogoutFilter@64aad6db, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2715644a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@56f71edb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1f52eb6f, org.springframework.security.web.session.SessionManagementFilter@746b18fd, org.springframework.security.web.access.ExceptionTranslationFilter@5b12012e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@256a1825]
+""2018-03-02 11:39:08 [main] INFO  c.b.e.c.CashExchangeApplicationTests - Started CashExchangeApplicationTests in 4.508 seconds (JVM running for 6.776)
+""2018-03-02 11:39:08 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Starting CashExchangeControllerTest on NIDIGIABURU8881 with PID 8176 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-02 11:39:08 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - No active profile set, falling back to default profiles: default
+""2018-03-02 11:39:09 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: d2b54bf8-a8fe-485c-8b7a-2d0e12c68f3e
+
+""2018-03-02 11:39:09 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-03-02 11:39:09 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@47c40b56, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b039c6d, org.springframework.security.web.context.SecurityContextPersistenceFilter@4601203a, org.springframework.security.web.header.HeaderWriterFilter@3c98781a, org.springframework.security.web.csrf.CsrfFilter@26bbe604, org.springframework.security.web.authentication.logout.LogoutFilter@80bfa9d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@53abfc07, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2c8c16c0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7f5b9db, org.springframework.security.web.session.SessionManagementFilter@3f736a16, org.springframework.security.web.access.ExceptionTranslationFilter@fe34b86]
+""2018-03-02 11:39:09 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+""2018-03-02 11:39:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+""2018-03-02 11:39:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 16 ms
+""2018-03-02 11:39:09 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Started CashExchangeControllerTest in 1.222 seconds (JVM running for 8.043)
+""2018-03-02 11:39:09 [main] INFO  c.b.e.c.c.CashExchangeController - Calling service class for exchange rates
+""2018-03-02 11:39:09 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Creating file for testing
+""2018-03-02 11:39:09 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - File Created Successfully.
+""2018-03-02 11:39:09 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Appended two lines of text to the file for testing
+""2018-03-02 11:39:09 [main] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/2014-02-24.txt
+""2018-03-02 11:39:09 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Successfully file deleted.
+""2018-03-02 11:39:09 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Creating file for testing
+""2018-03-02 11:39:09 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - File Created Successfully.
+""2018-03-02 11:39:09 [main] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/2014-02-24.txt
+""2018-03-02 11:39:09 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Successfully file deleted.
+""2018-03-02 11:39:09 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Creating file for testing
+""2018-03-02 11:39:09 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - File Created Successfully.
+""2018-03-02 11:39:09 [main] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/2014-02-24.txt
+""2018-03-02 11:39:09 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Successfully file deleted.
+""2018-03-02 11:39:09 [main] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-02 11:39:09 [main] INFO  c.b.e.c.service.ExchangeService - Parsing received records
+""2018-03-02 11:39:09 [main] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-02 11:39:09 [main] INFO  c.b.e.c.service.ExchangeService - Parsing received records
+""2018-03-02 11:39:09 [main] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-02 11:39:09 [main] INFO  c.b.e.c.service.ExchangeService - Parsing received records
+""2018-03-02 15:08:45 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Starting CashExchangeControllerTest on NIDIGIABURU8881 with PID 8332 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-02 15:08:45 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - No active profile set, falling back to default profiles: default
+""2018-03-02 15:08:48 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 9427a27d-6479-4a68-9b13-f92053b637a4
+
+""2018-03-02 15:08:48 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-03-02 15:08:48 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@d8948cd, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1436a7ab, org.springframework.security.web.context.SecurityContextPersistenceFilter@746cd757, org.springframework.security.web.header.HeaderWriterFilter@6ed06f69, org.springframework.security.web.csrf.CsrfFilter@141e879d, org.springframework.security.web.authentication.logout.LogoutFilter@2c306a57, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2098d37d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@b967222, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b7b05a8, org.springframework.security.web.session.SessionManagementFilter@5a6482a9, org.springframework.security.web.access.ExceptionTranslationFilter@1948ea69]
+""2018-03-02 15:08:48 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+""2018-03-02 15:08:48 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+""2018-03-02 15:08:48 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 18 ms
+""2018-03-02 15:08:49 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Started CashExchangeControllerTest in 4.966 seconds (JVM running for 6.495)
+""2018-03-02 15:08:49 [main] INFO  c.b.e.c.c.CashExchangeController - Calling service class for exchange rates
+""2018-03-02 15:08:49 [main] ERROR c.b.e.c.c.CashExchangeController - IO error while processing request
+"java.io.IOException: null
+	at com.burusoth.exchange.cashexchange.controller.CashExchangeController.exchange(CashExchangeController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:65)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:160)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:208)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:155)
+	at com.burusoth.exchange.cashexchange.controller.CashExchangeControllerTest.exchangeEndpointShouldReturnErrorMessageForIPMessages(CashExchangeControllerTest.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+"2018-03-02 15:41:09 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Starting CashExchangeControllerTest on NIDIGIABURU8881 with PID 8604 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-02 15:41:09 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - No active profile set, falling back to default profiles: default
+""2018-03-02 15:41:12 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 1138c5f8-4c29-475e-bcba-ab8693f15803
+
+""2018-03-02 15:41:12 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-03-02 15:41:13 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@3c0fbd3a, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@562457e1, org.springframework.security.web.context.SecurityContextPersistenceFilter@796065aa, org.springframework.security.web.header.HeaderWriterFilter@2bf94401, org.springframework.security.web.csrf.CsrfFilter@4390f46e, org.springframework.security.web.authentication.logout.LogoutFilter@66ec9390, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2c306a57, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@336365bc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@54562ea6, org.springframework.security.web.session.SessionManagementFilter@3e7dfd44, org.springframework.security.web.access.ExceptionTranslationFilter@65fd6708]
+""2018-03-02 15:41:13 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+""2018-03-02 15:41:13 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+""2018-03-02 15:41:13 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 16 ms
+""2018-03-02 15:41:13 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Started CashExchangeControllerTest in 4.516 seconds (JVM running for 6.092)
+""2018-03-02 15:41:13 [main] INFO  c.b.e.c.c.CashExchangeController - Calling service class for exchange rates
+""2018-03-02 15:41:13 [main] ERROR c.b.e.c.c.CashExchangeController - IO error while processing request
+"java.io.FileNotFoundException: null
+	at com.burusoth.exchange.cashexchange.controller.CashExchangeController.exchange(CashExchangeController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:65)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:160)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:208)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:155)
+	at com.burusoth.exchange.cashexchange.controller.CashExchangeControllerTest.exchangeEndpointShouldReturnErrorMessageWhenFileNotFound(CashExchangeControllerTest.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+"2018-03-02 15:41:57 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Starting CashExchangeControllerTest on NIDIGIABURU8881 with PID 5876 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-02 15:41:57 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - No active profile set, falling back to default profiles: default
+""2018-03-02 15:42:00 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 56f03b75-cc3c-4560-9aa5-030bc2406a72
+
+""2018-03-02 15:42:00 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-03-02 15:42:00 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@3b7b05a8, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3d36dff4, org.springframework.security.web.context.SecurityContextPersistenceFilter@2098d37d, org.springframework.security.web.header.HeaderWriterFilter@515ebef3, org.springframework.security.web.csrf.CsrfFilter@1704f67f, org.springframework.security.web.authentication.logout.LogoutFilter@d8948cd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@65fd6708, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1ba05e38, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7abe27bf, org.springframework.security.web.session.SessionManagementFilter@12f8b1d8, org.springframework.security.web.access.ExceptionTranslationFilter@49798e84]
+""2018-03-02 15:42:00 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+""2018-03-02 15:42:00 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+""2018-03-02 15:42:00 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 1 ms
+""2018-03-02 15:42:01 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Started CashExchangeControllerTest in 4.639 seconds (JVM running for 7.716)
+""2018-03-02 15:42:01 [main] INFO  c.b.e.c.c.CashExchangeController - Calling service class for exchange rates
+""2018-03-02 15:42:01 [main] ERROR c.b.e.c.c.CashExchangeController - IO error while processing request
+"java.io.FileNotFoundException: null
+	at com.burusoth.exchange.cashexchange.controller.CashExchangeController.exchange(CashExchangeController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:65)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:160)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:208)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:155)
+	at com.burusoth.exchange.cashexchange.controller.CashExchangeControllerTest.exchangeEndpointShouldReturnErrorMessageWhenFileNotFound(CashExchangeControllerTest.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+"2018-03-02 16:43:19 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Starting CashExchangeControllerTest on NIDIGIABURU8881 with PID 6488 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-02 16:43:19 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - No active profile set, falling back to default profiles: default
+""2018-03-02 16:43:23 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 75e792ce-28f3-4921-a5a5-f58e24898e2c
+
+""2018-03-02 16:43:23 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-03-02 16:43:23 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@5b94ccbc, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@38a1c423, org.springframework.security.web.context.SecurityContextPersistenceFilter@749ab7b4, org.springframework.security.web.header.HeaderWriterFilter@27c04377, org.springframework.security.web.csrf.CsrfFilter@15fb7a32, org.springframework.security.web.authentication.logout.LogoutFilter@3d36dff4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2bf94401, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@723ed581, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@336365bc, org.springframework.security.web.session.SessionManagementFilter@2098d37d, org.springframework.security.web.access.ExceptionTranslationFilter@515ebef3]
+""2018-03-02 16:43:23 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+""2018-03-02 16:43:23 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+""2018-03-02 16:43:23 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 1 ms
+""2018-03-02 16:43:23 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Started CashExchangeControllerTest in 4.415 seconds (JVM running for 5.714)
+""2018-03-02 16:46:06 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Starting CashExchangeControllerTest on NIDIGIABURU8881 with PID 9068 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-02 16:46:06 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - No active profile set, falling back to default profiles: default
+""2018-03-02 16:46:11 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 18422f89-9e3d-4896-8821-1c648e8b5917
+
+""2018-03-02 16:46:11 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-03-02 16:46:11 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@4a3be6a5, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7cf162bc, org.springframework.security.web.context.SecurityContextPersistenceFilter@3b7b05a8, org.springframework.security.web.header.HeaderWriterFilter@1ba05e38, org.springframework.security.web.csrf.CsrfFilter@49798e84, org.springframework.security.web.authentication.logout.LogoutFilter@5b12012e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7abe27bf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4074023c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3721177d, org.springframework.security.web.session.SessionManagementFilter@773e2eb5, org.springframework.security.web.access.ExceptionTranslationFilter@6a2eea2a]
+""2018-03-02 16:46:11 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+""2018-03-02 16:46:11 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+""2018-03-02 16:46:11 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 33 ms
+""2018-03-02 16:46:12 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Started CashExchangeControllerTest in 6.623 seconds (JVM running for 8.306)
+""2018-03-02 16:50:31 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Starting CashExchangeControllerTest on NIDIGIABURU8881 with PID 6800 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-02 16:50:31 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - No active profile set, falling back to default profiles: default
+""2018-03-02 16:50:34 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: e6c1f335-c1e7-4144-a0e9-e8cfa55fd691
+
+""2018-03-02 16:50:34 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-03-02 16:50:35 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@5b94ccbc, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@38a1c423, org.springframework.security.web.context.SecurityContextPersistenceFilter@749ab7b4, org.springframework.security.web.header.HeaderWriterFilter@27c04377, org.springframework.security.web.csrf.CsrfFilter@15fb7a32, org.springframework.security.web.authentication.logout.LogoutFilter@3d36dff4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2bf94401, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@723ed581, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@336365bc, org.springframework.security.web.session.SessionManagementFilter@2098d37d, org.springframework.security.web.access.ExceptionTranslationFilter@515ebef3]
+""2018-03-02 16:50:35 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+""2018-03-02 16:50:35 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+""2018-03-02 16:50:35 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 31 ms
+""2018-03-02 16:50:35 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Started CashExchangeControllerTest in 4.79 seconds (JVM running for 6.182)
+""2018-03-02 16:50:54 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Starting CashExchangeControllerTest on NIDIGIABURU8881 with PID 3572 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-02 16:50:54 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - No active profile set, falling back to default profiles: default
+""2018-03-02 16:50:57 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 6fc3252b-42be-49f5-91e4-b335dcde09c8
+
+""2018-03-02 16:50:58 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-03-02 16:50:58 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@2f7dcef2, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4a3be6a5, org.springframework.security.web.context.SecurityContextPersistenceFilter@1436a7ab, org.springframework.security.web.header.HeaderWriterFilter@3b0ee03a, org.springframework.security.web.csrf.CsrfFilter@47e4d9d0, org.springframework.security.web.authentication.logout.LogoutFilter@1a35993f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3d36dff4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3ac04654, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7cf162bc, org.springframework.security.web.session.SessionManagementFilter@2c306a57, org.springframework.security.web.access.ExceptionTranslationFilter@4349754]
+""2018-03-02 16:50:58 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+""2018-03-02 16:50:58 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+""2018-03-02 16:50:58 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 31 ms
+""2018-03-02 16:50:58 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Started CashExchangeControllerTest in 4.319 seconds (JVM running for 5.66)
+""2018-03-02 16:58:21 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Starting CashExchangeControllerTest on NIDIGIABURU8881 with PID 5504 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-02 16:58:21 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - No active profile set, falling back to default profiles: default
+""2018-03-02 16:58:25 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: a2cff35f-6de9-4dd3-81f8-f20549287e36
+
+""2018-03-02 16:58:25 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-03-02 16:58:25 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@60e21209, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@630d1b2f, org.springframework.security.web.context.SecurityContextPersistenceFilter@7351a16e, org.springframework.security.web.header.HeaderWriterFilter@773e2eb5, org.springframework.security.web.csrf.CsrfFilter@67403656, org.springframework.security.web.authentication.logout.LogoutFilter@2b4786dd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3ac04654, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1a35993f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@746b18fd, org.springframework.security.web.session.SessionManagementFilter@336365bc, org.springframework.security.web.access.ExceptionTranslationFilter@796065aa]
+""2018-03-02 16:58:25 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+""2018-03-02 16:58:25 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+""2018-03-02 16:58:25 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 16 ms
+""2018-03-02 16:58:25 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Started CashExchangeControllerTest in 4.545 seconds (JVM running for 5.888)
+""2018-03-02 16:58:48 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Starting CashExchangeControllerTest on NIDIGIABURU8881 with PID 8016 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-02 16:58:48 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - No active profile set, falling back to default profiles: default
+""2018-03-02 16:58:51 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: a9595ed4-a924-4716-abcb-7a49ab3d841b
+
+""2018-03-02 16:58:51 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-03-02 16:58:51 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@3ac04654, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4074023c, org.springframework.security.web.context.SecurityContextPersistenceFilter@3b0ee03a, org.springframework.security.web.header.HeaderWriterFilter@ae372b9, org.springframework.security.web.csrf.CsrfFilter@31da6b2e, org.springframework.security.web.authentication.logout.LogoutFilter@7351a16e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6c298dc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1436a7ab, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3ed0918d, org.springframework.security.web.session.SessionManagementFilter@4349754, org.springframework.security.web.access.ExceptionTranslationFilter@7f9ab969]
+""2018-03-02 16:58:51 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+""2018-03-02 16:58:51 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+""2018-03-02 16:58:51 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 31 ms
+""2018-03-02 16:58:51 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Started CashExchangeControllerTest in 4.721 seconds (JVM running for 7.09)
+""2018-03-02 16:59:20 [main] INFO  c.b.e.c.CashExchangeApplicationTests - Starting CashExchangeApplicationTests on NIDIGIABURU8881 with PID 2024 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-02 16:59:20 [main] INFO  c.b.e.c.CashExchangeApplicationTests - No active profile set, falling back to default profiles: default
+""2018-03-02 16:59:21 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$1aace091] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-03-02 16:59:21 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2018-03-02 16:59:22 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 8ff70871-3401-4226-bd2e-69a574e757f6
+
+""2018-03-02 16:59:22 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2d5f7182, org.springframework.security.web.context.SecurityContextPersistenceFilter@6136998b, org.springframework.security.web.header.HeaderWriterFilter@630d1b2f, org.springframework.security.web.csrf.CsrfFilter@d8948cd, org.springframework.security.web.authentication.logout.LogoutFilter@2822c6ff, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@b8a7e43, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@20095ab4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@59546cfe, org.springframework.security.web.session.SessionManagementFilter@518cf84a, org.springframework.security.web.access.ExceptionTranslationFilter@14e2e1c3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2b556bb2]
+""2018-03-02 16:59:23 [main] INFO  c.b.e.c.CashExchangeApplicationTests - Started CashExchangeApplicationTests in 4.262 seconds (JVM running for 6.345)
+""2018-03-02 16:59:23 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Starting CashExchangeControllerTest on NIDIGIABURU8881 with PID 2024 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-02 16:59:23 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - No active profile set, falling back to default profiles: default
+""2018-03-02 16:59:24 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 6d8b1008-f80c-48d7-bd23-335982b33336
+
+""2018-03-02 16:59:24 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-03-02 16:59:24 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@61bfc9bf, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2c7106d9, org.springframework.security.web.context.SecurityContextPersistenceFilter@7132a9dc, org.springframework.security.web.header.HeaderWriterFilter@4527f70a, org.springframework.security.web.csrf.CsrfFilter@3e67f5f2, org.springframework.security.web.authentication.logout.LogoutFilter@527fc8e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@57435801, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2da66a44, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@329bad59, org.springframework.security.web.session.SessionManagementFilter@707b1a44, org.springframework.security.web.access.ExceptionTranslationFilter@fd53053]
+""2018-03-02 16:59:24 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+""2018-03-02 16:59:24 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+""2018-03-02 16:59:24 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 0 ms
+""2018-03-02 16:59:24 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Started CashExchangeControllerTest in 1.061 seconds (JVM running for 7.439)
+""2018-03-02 16:59:25 [main] INFO  c.b.e.c.c.CashExchangeController - Calling service class for exchange rates
+""2018-03-02 16:59:25 [main] ERROR c.b.e.c.c.CashExchangeController - IO error while processing request
+"java.io.FileNotFoundException: null
+	at com.burusoth.exchange.cashexchange.controller.CashExchangeController.exchange(CashExchangeController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:65)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:160)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:208)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:155)
+	at com.burusoth.exchange.cashexchange.controller.CashExchangeControllerTest.exchangeEndpointShouldReturnErrorMessageWhenFileNotFound(CashExchangeControllerTest.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+"2018-03-02 16:59:25 [main] INFO  c.b.e.c.c.CashExchangeController - Calling service class for exchange rates
+""2018-03-02 16:59:25 [main] INFO  c.b.e.c.c.CashExchangeController - Calling service class for exchange rates
+""2018-03-02 16:59:25 [main] ERROR c.b.e.c.c.CashExchangeController - IO error while processing request
+"java.io.IOException: null
+	at com.burusoth.exchange.cashexchange.controller.CashExchangeController.exchange(CashExchangeController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:65)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:160)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:208)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:155)
+	at com.burusoth.exchange.cashexchange.controller.CashExchangeControllerTest.exchangeEndpointShouldReturnErrorMessageForIPMessages(CashExchangeControllerTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+"2018-03-02 16:59:25 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Creating file for testing
+""2018-03-02 16:59:25 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - File Created Successfully.
+""2018-03-02 16:59:25 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Appended two lines of text to the file for testing
+""2018-03-02 16:59:25 [main] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/2014-02-24.txt
+""2018-03-02 16:59:25 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Successfully file deleted.
+""2018-03-02 16:59:25 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Creating file for testing
+""2018-03-02 16:59:25 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - File Created Successfully.
+""2018-03-02 16:59:25 [main] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/2014-02-24.txt
+""2018-03-02 16:59:25 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Successfully file deleted.
+""2018-03-02 16:59:25 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Creating file for testing
+""2018-03-02 16:59:25 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - File Created Successfully.
+""2018-03-02 16:59:25 [main] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/2014-02-24.txt
+""2018-03-02 16:59:25 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Successfully file deleted.
+""2018-03-02 16:59:25 [main] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-02 16:59:25 [main] INFO  c.b.e.c.service.ExchangeService - Parsing received records
+""2018-03-02 16:59:25 [main] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-02 16:59:25 [main] INFO  c.b.e.c.service.ExchangeService - Parsing received records
+""2018-03-02 16:59:25 [main] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-02 16:59:25 [main] INFO  c.b.e.c.service.ExchangeService - Parsing received records
+""2018-03-02 17:00:47 [main] INFO  c.b.e.c.CashExchangeApplicationTests - Starting CashExchangeApplicationTests on NIDIGIABURU8881 with PID 3176 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-02 17:00:47 [main] INFO  c.b.e.c.CashExchangeApplicationTests - No active profile set, falling back to default profiles: default
+""2018-03-02 17:00:49 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$781f24ff] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-03-02 17:00:49 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2018-03-02 17:00:51 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: dfee4f4b-5389-421b-8efc-45beabd44d38
+
+""2018-03-02 17:00:51 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2ce45a7b, org.springframework.security.web.context.SecurityContextPersistenceFilter@64aad6db, org.springframework.security.web.header.HeaderWriterFilter@b8a7e43, org.springframework.security.web.csrf.CsrfFilter@4074023c, org.springframework.security.web.authentication.logout.LogoutFilter@16c8b7bd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@60d1b21f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7e9da981, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@153d4abb, org.springframework.security.web.session.SessionManagementFilter@5e8604bf, org.springframework.security.web.access.ExceptionTranslationFilter@62e7dffa, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@59546cfe]
+""2018-03-02 17:00:52 [main] INFO  c.b.e.c.CashExchangeApplicationTests - Started CashExchangeApplicationTests in 5.603 seconds (JVM running for 7.71)
+""2018-03-02 17:00:52 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Starting CashExchangeControllerTest on NIDIGIABURU8881 with PID 3176 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-02 17:00:52 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - No active profile set, falling back to default profiles: default
+""2018-03-02 17:00:53 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 4d26b940-05b6-4d65-8e7e-c464ed7b5db0
+
+""2018-03-02 17:00:53 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-03-02 17:00:53 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@571a01f9, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@d7109be, org.springframework.security.web.context.SecurityContextPersistenceFilter@7bab5898, org.springframework.security.web.header.HeaderWriterFilter@432f521f, org.springframework.security.web.csrf.CsrfFilter@33ecbd6c, org.springframework.security.web.authentication.logout.LogoutFilter@7654f833, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@366d8b97, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@feb98ef, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5e0ec41f, org.springframework.security.web.session.SessionManagementFilter@2d7a9786, org.springframework.security.web.access.ExceptionTranslationFilter@5c723f2d]
+""2018-03-02 17:00:53 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+""2018-03-02 17:00:53 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+""2018-03-02 17:00:53 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 55 ms
+""2018-03-02 17:00:53 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Started CashExchangeControllerTest in 1.202 seconds (JVM running for 8.977)
+""2018-03-02 17:00:54 [main] INFO  c.b.e.c.c.CashExchangeController - Calling service class for exchange rates
+""2018-03-02 17:00:54 [main] ERROR c.b.e.c.c.CashExchangeController - IO error while processing request
+"java.io.FileNotFoundException: null
+	at com.burusoth.exchange.cashexchange.controller.CashExchangeController.exchange(CashExchangeController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:65)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:160)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:208)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:155)
+	at com.burusoth.exchange.cashexchange.controller.CashExchangeControllerTest.exchangeEndpointShouldReturnErrorMessageWhenFileNotFound(CashExchangeControllerTest.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+"2018-03-02 17:00:54 [main] INFO  c.b.e.c.c.CashExchangeController - Calling service class for exchange rates
+""2018-03-02 17:00:54 [main] INFO  c.b.e.c.c.CashExchangeController - Calling service class for exchange rates
+""2018-03-02 17:00:54 [main] ERROR c.b.e.c.c.CashExchangeController - IO error while processing request
+"java.io.IOException: null
+	at com.burusoth.exchange.cashexchange.controller.CashExchangeController.exchange(CashExchangeController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:65)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:160)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:208)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:155)
+	at com.burusoth.exchange.cashexchange.controller.CashExchangeControllerTest.exchangeEndpointShouldReturnErrorMessageForIPMessages(CashExchangeControllerTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+"2018-03-02 17:00:54 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Creating file for testing
+""2018-03-02 17:00:54 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - File Created Successfully.
+""2018-03-02 17:00:54 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Appended two lines of text to the file for testing
+""2018-03-02 17:00:54 [main] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/2014-02-24.txt
+""2018-03-02 17:00:54 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Successfully file deleted.
+""2018-03-02 17:00:54 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Creating file for testing
+""2018-03-02 17:00:54 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - File Created Successfully.
+""2018-03-02 17:00:54 [main] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/2014-02-24.txt
+""2018-03-02 17:00:54 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Successfully file deleted.
+""2018-03-02 17:00:54 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Creating file for testing
+""2018-03-02 17:00:54 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - File Created Successfully.
+""2018-03-02 17:00:54 [main] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/2014-02-24.txt
+""2018-03-02 17:00:54 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Successfully file deleted.
+""2018-03-02 17:00:54 [main] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-02 17:00:54 [main] INFO  c.b.e.c.service.ExchangeService - Parsing received records
+""2018-03-02 17:00:54 [main] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-02 17:00:54 [main] INFO  c.b.e.c.service.ExchangeService - Parsing received records
+""2018-03-02 17:00:54 [main] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-02 17:00:54 [main] INFO  c.b.e.c.service.ExchangeService - Parsing received records
+""2018-03-02 17:03:39 [main] INFO  c.b.e.c.CashExchangeApplicationTests - Starting CashExchangeApplicationTests on NIDIGIABURU8881 with PID 6512 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-02 17:03:39 [main] INFO  c.b.e.c.CashExchangeApplicationTests - No active profile set, falling back to default profiles: default
+""2018-03-02 17:03:40 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$504a5d1a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-03-02 17:03:40 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2018-03-02 17:03:42 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: b776493c-391a-4c96-bb65-3af1346781f9
+
+""2018-03-02 17:03:42 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6fc3e1a4, org.springframework.security.web.context.SecurityContextPersistenceFilter@62e7dffa, org.springframework.security.web.header.HeaderWriterFilter@f202d6d, org.springframework.security.web.csrf.CsrfFilter@2c306a57, org.springframework.security.web.authentication.logout.LogoutFilter@621f89b8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6136998b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4a6c18ad, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3fa76c61, org.springframework.security.web.session.SessionManagementFilter@2715644a, org.springframework.security.web.access.ExceptionTranslationFilter@766a4535, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@287f7811]
+""2018-03-02 17:03:44 [main] INFO  c.b.e.c.CashExchangeApplicationTests - Started CashExchangeApplicationTests in 5.121 seconds (JVM running for 7.355)
+""2018-03-02 17:03:44 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Starting CashExchangeControllerTest on NIDIGIABURU8881 with PID 6512 (started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-02 17:03:44 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - No active profile set, falling back to default profiles: default
+""2018-03-02 17:03:45 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: a00a6777-1afb-4f0f-8134-7fc3bd7270d6
+
+""2018-03-02 17:03:45 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2018-03-02 17:03:45 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@2da66a44, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@527fc8e, org.springframework.security.web.context.SecurityContextPersistenceFilter@4527f70a, org.springframework.security.web.header.HeaderWriterFilter@3e67f5f2, org.springframework.security.web.csrf.CsrfFilter@1e0a864d, org.springframework.security.web.authentication.logout.LogoutFilter@57435801, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@707b1a44, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7132a9dc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@61bfc9bf, org.springframework.security.web.session.SessionManagementFilter@fd53053, org.springframework.security.web.access.ExceptionTranslationFilter@440e3ce6]
+""2018-03-02 17:03:45 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+""2018-03-02 17:03:45 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+""2018-03-02 17:03:45 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 16 ms
+""2018-03-02 17:03:45 [main] INFO  c.b.e.c.c.CashExchangeControllerTest - Started CashExchangeControllerTest in 1.27 seconds (JVM running for 8.671)
+""2018-03-02 17:03:45 [main] INFO  c.b.e.c.c.CashExchangeController - Calling service class for exchange rates
+""2018-03-02 17:03:45 [main] ERROR c.b.e.c.c.CashExchangeController - IO error while processing request
+"java.io.FileNotFoundException: null
+	at com.burusoth.exchange.cashexchange.controller.CashExchangeController.exchange(CashExchangeController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:65)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:160)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:208)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:155)
+	at com.burusoth.exchange.cashexchange.controller.CashExchangeControllerTest.exchangeEndpointShouldReturnErrorMessageWhenFileNotFound(CashExchangeControllerTest.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+"2018-03-02 17:03:45 [main] INFO  c.b.e.c.c.CashExchangeController - Calling service class for exchange rates
+""2018-03-02 17:03:45 [main] INFO  c.b.e.c.c.CashExchangeController - Calling service class for exchange rates
+""2018-03-02 17:03:45 [main] ERROR c.b.e.c.c.CashExchangeController - IO error while processing request
+"java.io.IOException: null
+	at com.burusoth.exchange.cashexchange.controller.CashExchangeController.exchange(CashExchangeController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:65)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:160)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:208)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:155)
+	at com.burusoth.exchange.cashexchange.controller.CashExchangeControllerTest.exchangeEndpointShouldReturnErrorMessageForIPMessages(CashExchangeControllerTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+"2018-03-02 17:03:45 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Creating file for testing
+""2018-03-02 17:03:45 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - File Created Successfully.
+""2018-03-02 17:03:45 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Appended two lines of text to the file for testing
+""2018-03-02 17:03:45 [main] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/2014-02-24.txt
+""2018-03-02 17:03:45 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Successfully file deleted.
+""2018-03-02 17:03:45 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Creating file for testing
+""2018-03-02 17:03:45 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - File Created Successfully.
+""2018-03-02 17:03:45 [main] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/2014-02-24.txt
+""2018-03-02 17:03:45 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Successfully file deleted.
+""2018-03-02 17:03:45 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Creating file for testing
+""2018-03-02 17:03:45 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - File Created Successfully.
+""2018-03-02 17:03:45 [main] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/2014-02-24.txt
+""2018-03-02 17:03:45 [main] INFO  c.b.e.c.data.ExchangeFileReaderTest - Successfully file deleted.
+""2018-03-02 17:03:45 [main] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-02 17:03:45 [main] INFO  c.b.e.c.service.ExchangeService - Parsing received records
+""2018-03-02 17:03:45 [main] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-02 17:03:45 [main] INFO  c.b.e.c.service.ExchangeService - Parsing received records
+""2018-03-02 17:03:45 [main] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-02 17:03:45 [main] INFO  c.b.e.c.service.ExchangeService - Parsing received records
 "
