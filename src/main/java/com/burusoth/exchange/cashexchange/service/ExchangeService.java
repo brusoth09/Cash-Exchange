@@ -1,5 +1,6 @@
 package com.burusoth.exchange.cashexchange.service;
 
+import com.burusoth.exchange.cashexchange.cache.LRUCache;
 import com.burusoth.exchange.cashexchange.data.ExchangeFileReader;
 import com.burusoth.exchange.cashexchange.exception.FileInputFormatException;
 import com.burusoth.exchange.cashexchange.exception.InvalidCurrencyException;
@@ -28,6 +29,11 @@ public class ExchangeService {
     private ExchangeFileReader exchangeFileReader;
     private ParserUtil parserUtil;
     private Logger logger = LoggerFactory.getLogger(this.getClass().getName());
+    private static LRUCache lruCache;
+
+    static {
+        lruCache = new LRUCache(20);
+    }
 
     @Autowired
     public ExchangeService(ExchangeFileReader exchangeFileReader, ParserUtil parserUtil) {
@@ -38,9 +44,15 @@ public class ExchangeService {
     public Map<String, Double> getAllExchangeRate(String date) throws IOException, FileInputFormatException {
         logger.info("Getting records from file..");
         List<String> records = exchangeFileReader.readExchangeRate(date);
-        logger.info("Parsing received records");
-        Map<String, Double> exchangeRates = parserUtil.parseData(records);
-        return exchangeRates;
+        logger.info("Checking cache....");
+        Map<String, Double> cachedValue = lruCache.get(date);
+        if(cachedValue == null) {
+            logger.info("Parsing received records");
+            Map<String, Double> exchangeRates = parserUtil.parseData(records);
+            lruCache.set(date, exchangeRates);
+            return exchangeRates;
+        }
+        return cachedValue;
     }
 
     @Async
