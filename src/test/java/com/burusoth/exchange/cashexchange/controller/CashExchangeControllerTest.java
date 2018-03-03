@@ -3,6 +3,8 @@ package com.burusoth.exchange.cashexchange.controller;
 import com.burusoth.exchange.cashexchange.exception.FileInputFormatException;
 import com.burusoth.exchange.cashexchange.exception.InvalidCurrencyException;
 import com.burusoth.exchange.cashexchange.response.ExchangeRate;
+import com.burusoth.exchange.cashexchange.response.ExchangeRateRange;
+import com.burusoth.exchange.cashexchange.response.ExchangeRates;
 import com.burusoth.exchange.cashexchange.service.ExchangeService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -16,7 +18,9 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import static org.hamcrest.Matchers.hasSize;
@@ -121,5 +125,42 @@ public class CashExchangeControllerTest {
                 .andExpect(jsonPath("$.*", hasSize(1)))
                 .andExpect(jsonPath("$.error").value("Error while getting exchange rates"))
                 .andDo(print());
+    }
+
+
+    @Test
+    public void exchangeShouldReturnExchangeRateForGivenDateRangeWithCorrectValues() throws FileInputFormatException, InvalidCurrencyException, Exception {
+        Map<String, Double> rates = new HashMap<>();
+        rates.put("SGD", 1.2);
+        rates.put("LKR", 1.4);
+        ExchangeRates exchangeRates1 = new ExchangeRates("27-02-2018", rates);
+        ExchangeRates exchangeRates2 = new ExchangeRates("28-02-2018", rates);
+        List<ExchangeRates> exchangeRatesList = new ArrayList<>();
+        exchangeRatesList.add(exchangeRates1);
+        exchangeRatesList.add(exchangeRates2);
+        ExchangeRateRange exchangeRateRange = new ExchangeRateRange("27-02-2018", "28-02-2018", exchangeRatesList);
+        Mockito.when(exchangeService.getExchangeRate("27-02-2018", "28-02-2018")).thenReturn(new AsyncResult<>(exchangeRateRange));
+        mockMvc.perform(get("/api/exchange/")
+                .param("from", "27-02-2018")
+                .param("to", "28-02-2018")
+                .contentType(MediaType.APPLICATION_JSON))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.*", hasSize(3)))
+                .andExpect(jsonPath("$.from").value("27-02-2018"))
+                .andExpect(jsonPath("$.to").value("28-02-2018"))
+                .andExpect(jsonPath("$.rates[0].date").value("27-02-2018"))
+                .andExpect(jsonPath("$.rates[0].exchange-rates.SGD").value(1.2))
+                .andDo(print());
+    }
+
+    @Test
+    public void exchangeShouldReturnErrorWhileGettingResponse() throws FileInputFormatException, Exception {
+        Mockito.when(exchangeService.getExchangeRate("27-02-2018", "28-02-2018")).thenThrow(FileInputFormatException.class);
+        mockMvc.perform(get("/api/exchange/")
+                .param("from", "27-02-2018")
+                .param("to", "28-02-2018")
+                .contentType(MediaType.APPLICATION_JSON))
+                .andExpect(status().isInternalServerError())
+                .andExpect(status().isInternalServerError());
     }
 }
