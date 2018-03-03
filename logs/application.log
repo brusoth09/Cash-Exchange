@@ -2725,4 +2725,168 @@ Using default security password: 1a7e415e-a52f-49d5-aed6-22b5131ddb23
 ""2018-03-03 21:59:57 [main] INFO  c.b.e.c.service.ExchangeService - Parsing received records
 ""2018-03-03 21:59:57 [main] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
 ""2018-03-03 21:59:57 [main] INFO  c.b.e.c.service.ExchangeService - Parsing received records
+""2018-03-03 22:42:30 [main] INFO  c.b.e.c.CashExchangeApplication - Starting CashExchangeApplication on NIDIGIABURU8881 with PID 9416 (C:\Users\aburu\Projects\cash-exchange\target\classes started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-03 22:42:30 [main] INFO  c.b.e.c.CashExchangeApplication - No active profile set, falling back to default profiles: default
+""2018-03-03 22:42:30 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23bb8443: startup date [Sat Mar 03 22:42:30 SGT 2018]; root of context hierarchy
+""2018-03-03 22:42:32 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$6c93c917] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-03-03 22:42:32 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2018-03-03 22:42:33 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+""2018-03-03 22:42:33 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2018-03-03 22:42:33 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+""2018-03-03 22:42:33 [localhost-startStop-1] INFO  o.a.c.c.C.[.[localhost].[/Exchanger] - Initializing Spring embedded WebApplicationContext
+""2018-03-03 22:42:33 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2018-03-03 22:42:33 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2018-03-03 22:42:33 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2018-03-03 22:42:33 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2018-03-03 22:42:33 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+""2018-03-03 22:42:33 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2018-03-03 22:42:33 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+""2018-03-03 22:42:34 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 47262fe7-4e67-442c-84c5-21fd102932a2
+
+""2018-03-03 22:42:34 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1d269ed7, org.springframework.security.web.context.SecurityContextPersistenceFilter@28b576a9, org.springframework.security.web.header.HeaderWriterFilter@5c09d180, org.springframework.security.web.csrf.CsrfFilter@5ab9b447, org.springframework.security.web.authentication.logout.LogoutFilter@6f330eb9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2f6bbeb0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2ba45490, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@437ebf59, org.springframework.security.web.session.SessionManagementFilter@26f1249d, org.springframework.security.web.access.ExceptionTranslationFilter@50b1f030, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@11ce2e22]
+""2018-03-03 22:42:35 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2018-03-03 22:42:35 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+""2018-03-03 22:42:36 [main] INFO  c.b.e.c.CashExchangeApplication - Started CashExchangeApplication in 6.4 seconds (JVM running for 8.157)
+""2018-03-03 22:43:43 [http-nio-8080-exec-3] INFO  o.a.c.c.C.[.[localhost].[/Exchanger] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2018-03-03 22:44:37 [main] INFO  c.b.e.c.CashExchangeApplication - Starting CashExchangeApplication on NIDIGIABURU8881 with PID 7848 (C:\Users\aburu\Projects\cash-exchange\target\classes started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-03 22:44:37 [main] INFO  c.b.e.c.CashExchangeApplication - No active profile set, falling back to default profiles: default
+""2018-03-03 22:44:37 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23bb8443: startup date [Sat Mar 03 22:44:37 SGT 2018]; root of context hierarchy
+""2018-03-03 22:44:40 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$6c93c917] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-03-03 22:44:40 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2018-03-03 22:44:41 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+""2018-03-03 22:44:41 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2018-03-03 22:44:41 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+""2018-03-03 22:44:42 [localhost-startStop-1] INFO  o.a.c.c.C.[.[localhost].[/Exchanger] - Initializing Spring embedded WebApplicationContext
+""2018-03-03 22:44:43 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2018-03-03 22:44:43 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2018-03-03 22:44:43 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2018-03-03 22:44:43 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2018-03-03 22:44:43 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+""2018-03-03 22:44:43 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2018-03-03 22:44:43 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+""2018-03-03 22:44:44 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: e2c9122d-f00a-4350-be4e-7883f2f98141
+
+""2018-03-03 22:44:44 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1d269ed7, org.springframework.security.web.context.SecurityContextPersistenceFilter@28b576a9, org.springframework.security.web.header.HeaderWriterFilter@5c09d180, org.springframework.security.web.csrf.CsrfFilter@5ab9b447, org.springframework.security.web.authentication.logout.LogoutFilter@6f330eb9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2f6bbeb0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2ba45490, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@437ebf59, org.springframework.security.web.session.SessionManagementFilter@26f1249d, org.springframework.security.web.access.ExceptionTranslationFilter@50b1f030, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@11ce2e22]
+""2018-03-03 22:44:45 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2018-03-03 22:44:45 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+""2018-03-03 22:44:45 [main] INFO  c.b.e.c.CashExchangeApplication - Started CashExchangeApplication in 8.442 seconds (JVM running for 9.959)
+""2018-03-03 22:44:50 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/Exchanger] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2018-03-03 22:44:50 [http-nio-8080-exec-1] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-03 22:44:50 [http-nio-8080-exec-1] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/02-03-2018.txt
+""2018-03-03 22:44:54 [http-nio-8080-exec-2] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-03 22:44:54 [http-nio-8080-exec-2] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/02-03-2018.txt
+""2018-03-03 22:45:53 [http-nio-8080-exec-6] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-03 22:45:53 [http-nio-8080-exec-6] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/02-03-2018.txt
+""2018-03-03 22:45:53 [http-nio-8080-exec-6] INFO  c.b.e.c.service.ExchangeService - Parsing received records
+""2018-03-03 22:45:53 [http-nio-8080-exec-6] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-03 22:45:53 [http-nio-8080-exec-6] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/02-04-2018.txt
+""2018-03-03 22:46:05 [http-nio-8080-exec-5] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-03 22:46:05 [http-nio-8080-exec-5] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/02-03-2018.txt
+""2018-03-03 22:46:05 [http-nio-8080-exec-5] INFO  c.b.e.c.service.ExchangeService - Parsing received records
+""2018-03-03 22:46:05 [http-nio-8080-exec-5] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-03 22:46:05 [http-nio-8080-exec-5] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/02-04-2018.txt
+""2018-03-03 22:46:07 [http-nio-8080-exec-9] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-03 22:46:07 [http-nio-8080-exec-9] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/02-03-2018.txt
+""2018-03-03 22:46:07 [http-nio-8080-exec-9] INFO  c.b.e.c.service.ExchangeService - Parsing received records
+""2018-03-03 22:46:07 [http-nio-8080-exec-9] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-03 22:46:07 [http-nio-8080-exec-9] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/02-04-2018.txt
+""2018-03-03 22:49:13 [main] INFO  c.b.e.c.CashExchangeApplication - Starting CashExchangeApplication on NIDIGIABURU8881 with PID 6316 (C:\Users\aburu\Projects\cash-exchange\target\classes started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-03 22:49:13 [main] INFO  c.b.e.c.CashExchangeApplication - No active profile set, falling back to default profiles: default
+""2018-03-03 22:49:13 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1176dcec: startup date [Sat Mar 03 22:49:13 SGT 2018]; root of context hierarchy
+""2018-03-03 22:49:15 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$3167e7e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-03-03 22:49:15 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2018-03-03 22:49:15 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+""2018-03-03 22:49:15 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2018-03-03 22:49:15 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+""2018-03-03 22:49:15 [localhost-startStop-1] INFO  o.a.c.c.C.[.[localhost].[/Exchanger] - Initializing Spring embedded WebApplicationContext
+""2018-03-03 22:49:16 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2018-03-03 22:49:16 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2018-03-03 22:49:16 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2018-03-03 22:49:16 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2018-03-03 22:49:16 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+""2018-03-03 22:49:16 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2018-03-03 22:49:16 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+""2018-03-03 22:49:16 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: d744fd76-e8ed-4fbc-9225-fa64b6f5c849
+
+""2018-03-03 22:49:16 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@41c89d2f, org.springframework.security.web.context.SecurityContextPersistenceFilter@2f6bbeb0, org.springframework.security.web.header.HeaderWriterFilter@5f574cc2, org.springframework.security.web.csrf.CsrfFilter@4f8caaf3, org.springframework.security.web.authentication.logout.LogoutFilter@584f5497, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@18151a14, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@894858, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@410e94e, org.springframework.security.web.session.SessionManagementFilter@a68df9, org.springframework.security.web.access.ExceptionTranslationFilter@5fa05212, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@13cda7c9]
+""2018-03-03 22:49:17 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2018-03-03 22:49:17 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+""2018-03-03 22:49:17 [main] INFO  c.b.e.c.CashExchangeApplication - Started CashExchangeApplication in 4.323 seconds (JVM running for 5.699)
+""2018-03-03 22:49:26 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/Exchanger] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2018-03-03 22:49:26 [http-nio-8080-exec-1] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-03 22:49:26 [http-nio-8080-exec-1] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/02-03-2018.txt
+""2018-03-03 22:49:26 [http-nio-8080-exec-1] INFO  c.b.e.c.service.ExchangeService - Parsing received records
+""2018-03-03 22:49:26 [http-nio-8080-exec-1] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-03 22:49:26 [http-nio-8080-exec-1] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/03-03-2018.txt
+""2018-03-03 22:49:26 [http-nio-8080-exec-1] INFO  c.b.e.c.service.ExchangeService - Parsing received records
+""2018-03-03 22:49:26 [http-nio-8080-exec-1] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-03 22:49:26 [http-nio-8080-exec-1] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/04-03-2018.txt
+""2018-03-03 22:50:57 [main] INFO  c.b.e.c.CashExchangeApplication - Starting CashExchangeApplication on NIDIGIABURU8881 with PID 2488 (C:\Users\aburu\Projects\cash-exchange\target\classes started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-03 22:50:57 [main] INFO  c.b.e.c.CashExchangeApplication - No active profile set, falling back to default profiles: default
+""2018-03-03 22:50:57 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23bb8443: startup date [Sat Mar 03 22:50:57 SGT 2018]; root of context hierarchy
+""2018-03-03 22:50:59 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$6c93c917] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-03-03 22:50:59 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2018-03-03 22:50:59 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+""2018-03-03 22:50:59 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2018-03-03 22:50:59 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+""2018-03-03 22:51:00 [localhost-startStop-1] INFO  o.a.c.c.C.[.[localhost].[/Exchanger] - Initializing Spring embedded WebApplicationContext
+""2018-03-03 22:51:00 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2018-03-03 22:51:00 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2018-03-03 22:51:00 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2018-03-03 22:51:00 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2018-03-03 22:51:00 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+""2018-03-03 22:51:00 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2018-03-03 22:51:00 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+""2018-03-03 22:51:00 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: ba5d7d02-f1cf-4875-9b9e-aec36012a7b8
+
+""2018-03-03 22:51:01 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1d269ed7, org.springframework.security.web.context.SecurityContextPersistenceFilter@28b576a9, org.springframework.security.web.header.HeaderWriterFilter@5c09d180, org.springframework.security.web.csrf.CsrfFilter@5ab9b447, org.springframework.security.web.authentication.logout.LogoutFilter@6f330eb9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2f6bbeb0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2ba45490, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@437ebf59, org.springframework.security.web.session.SessionManagementFilter@26f1249d, org.springframework.security.web.access.ExceptionTranslationFilter@50b1f030, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@11ce2e22]
+""2018-03-03 22:51:03 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2018-03-03 22:51:03 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+""2018-03-03 22:51:03 [main] INFO  c.b.e.c.CashExchangeApplication - Started CashExchangeApplication in 6.17 seconds (JVM running for 7.563)
+""2018-03-03 22:51:04 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/Exchanger] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2018-03-03 22:51:05 [http-nio-8080-exec-1] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-03 22:51:05 [http-nio-8080-exec-1] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/02-03-2018.txt
+""2018-03-03 22:51:05 [http-nio-8080-exec-1] INFO  c.b.e.c.service.ExchangeService - Parsing received records
+""2018-03-03 22:51:08 [http-nio-8080-exec-2] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-03 22:51:08 [http-nio-8080-exec-2] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/02-03-2018.txt
+""2018-03-03 22:51:08 [http-nio-8080-exec-2] INFO  c.b.e.c.service.ExchangeService - Parsing received records
+""2018-03-03 22:53:51 [main] INFO  c.b.e.c.CashExchangeApplication - Starting CashExchangeApplication on NIDIGIABURU8881 with PID 272 (C:\Users\aburu\Projects\cash-exchange\target\classes started by aburu in C:\Users\aburu\Projects\cash-exchange)
+""2018-03-03 22:53:51 [main] INFO  c.b.e.c.CashExchangeApplication - No active profile set, falling back to default profiles: default
+""2018-03-03 22:53:51 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1176dcec: startup date [Sat Mar 03 22:53:51 SGT 2018]; root of context hierarchy
+""2018-03-03 22:53:54 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$3167e7e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-03-03 22:53:54 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2018-03-03 22:53:54 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+""2018-03-03 22:53:54 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2018-03-03 22:53:54 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+""2018-03-03 22:53:54 [localhost-startStop-1] INFO  o.a.c.c.C.[.[localhost].[/Exchanger] - Initializing Spring embedded WebApplicationContext
+""2018-03-03 22:53:55 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2018-03-03 22:53:55 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2018-03-03 22:53:55 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2018-03-03 22:53:55 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2018-03-03 22:53:55 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+""2018-03-03 22:53:55 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2018-03-03 22:53:55 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+""2018-03-03 22:53:55 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 22b1feb7-e5e4-48f7-8529-a956e77455b5
+
+""2018-03-03 22:53:55 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@41c89d2f, org.springframework.security.web.context.SecurityContextPersistenceFilter@2f6bbeb0, org.springframework.security.web.header.HeaderWriterFilter@5f574cc2, org.springframework.security.web.csrf.CsrfFilter@4f8caaf3, org.springframework.security.web.authentication.logout.LogoutFilter@584f5497, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@18151a14, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@894858, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@410e94e, org.springframework.security.web.session.SessionManagementFilter@a68df9, org.springframework.security.web.access.ExceptionTranslationFilter@5fa05212, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@13cda7c9]
+""2018-03-03 22:53:56 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2018-03-03 22:53:56 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+""2018-03-03 22:53:56 [main] INFO  c.b.e.c.CashExchangeApplication - Started CashExchangeApplication in 5.802 seconds (JVM running for 7.379)
+""2018-03-03 22:54:05 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/Exchanger] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2018-03-03 22:54:05 [http-nio-8080-exec-1] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-03 22:54:05 [http-nio-8080-exec-1] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/02-03-2018.txt
+""2018-03-03 22:54:05 [http-nio-8080-exec-1] INFO  c.b.e.c.service.ExchangeService - Parsing received records
+""2018-03-03 22:54:05 [http-nio-8080-exec-1] INFO  c.b.e.c.service.ExchangeService - Getting records from file..
+""2018-03-03 22:54:05 [http-nio-8080-exec-1] INFO  c.b.e.c.data.ExchangeFileReader - src/main/resources/03-03-2018.txt
+""2018-03-03 22:54:05 [http-nio-8080-exec-1] INFO  c.b.e.c.service.ExchangeService - Parsing received records
 "

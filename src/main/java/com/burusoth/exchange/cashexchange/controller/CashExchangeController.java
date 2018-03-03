@@ -4,8 +4,8 @@ import com.burusoth.exchange.cashexchange.exception.FileInputFormatException;
 import com.burusoth.exchange.cashexchange.exception.InvalidCurrencyException;
 import com.burusoth.exchange.cashexchange.response.CashExchangeError;
 import com.burusoth.exchange.cashexchange.response.ExchangeRate;
+import com.burusoth.exchange.cashexchange.response.ExchangeRateRange;
 import com.burusoth.exchange.cashexchange.service.ExchangeService;
-import com.sun.deploy.net.HttpResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +15,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
-import java.util.Map;
+import java.text.ParseException;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
@@ -53,6 +53,8 @@ public class CashExchangeController {
                 if(future.isDone()){
                     return new ResponseEntity<>(future.get(), HttpStatus.OK);
                 }
+                logger.info("Getting delayed to get the response");
+                Thread.sleep(1000);
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -65,4 +67,23 @@ public class CashExchangeController {
             return new ResponseEntity<>(new CashExchangeError("Invalid Currency Code"), HttpStatus.BAD_REQUEST);
         }
     }
+
+    @RequestMapping("/exchange")
+    @ResponseBody
+    public ResponseEntity<?> exchange(@RequestParam String from, @RequestParam String to) {
+        try {
+            while(true) {
+                Future<ExchangeRateRange> future = exchangeService.getExchangeRate(from, to);
+                if(future.isDone()){
+                    return new ResponseEntity<>(future.get(), HttpStatus.OK);
+                }
+                logger.info("Getting delayed to get the response");
+                Thread.sleep(1000);
+            }
+        } catch (ParseException | IOException | FileInputFormatException | InterruptedException | ExecutionException e) {
+            e.printStackTrace();
+            return new ResponseEntity<>(new CashExchangeError("Error while getting exchange rates"), HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
+
 }
