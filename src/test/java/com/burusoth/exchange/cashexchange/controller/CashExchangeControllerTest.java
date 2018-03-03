@@ -7,27 +7,23 @@ import com.burusoth.exchange.cashexchange.service.ExchangeService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mockito;
-import org.omg.CORBA.DynAnyPackage.Invalid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.TestContext;
+import org.springframework.scheduling.annotation.AsyncResult;
 import org.springframework.test.context.junit4.SpringRunner;
-import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.test.web.servlet.MockMvc;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
 import static org.hamcrest.Matchers.hasSize;
-import static org.junit.Assert.*;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(CashExchangeController.class)
@@ -72,7 +68,7 @@ public class CashExchangeControllerTest {
         Map<String, Double> map = new HashMap<>();
         map.put("SGD",1.2);
         map.put("USD",100.0);
-        Mockito.when(exchangeService.getAllExchangeRate("27-02-2018")).thenThrow(new FileNotFoundException());
+        Mockito.when(exchangeService.getAllExchangeRate("27-02-2018")).thenThrow(new FileInputFormatException("wrong file format"));
         mockMvc.perform(get("/api/exchange/27-02-2018")
                 .contentType(MediaType.APPLICATION_JSON))
                 .andExpect(status().isInternalServerError())
@@ -83,7 +79,7 @@ public class CashExchangeControllerTest {
 
     @Test
     public void exchangeShouldReturnExchangeRateWhenCorrectCodePassed() throws FileInputFormatException, InvalidCurrencyException, Exception {
-        Mockito.when(exchangeService.getExchangeRate("27-02-2018","SGD", "LKR")).thenReturn(new ExchangeRate("SGD","LKR", 1.2/100.0));
+        Mockito.when(exchangeService.getExchangeRate("27-02-2018", "SGD", "LKR")).thenReturn(new AsyncResult<>(new ExchangeRate("SGD", "LKR", 1.2 / 100.0)));
         mockMvc.perform(get("/api/exchange/27-02-2018/sgd/lkr")
                 .contentType(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
@@ -107,7 +103,7 @@ public class CashExchangeControllerTest {
 
     @Test
     public void exchangeShouldReturnInvalidCurrencyCodeWhenDifferentCurrencyCodeProvided() throws FileInputFormatException, InvalidCurrencyException, Exception {
-        Mockito.when(exchangeService.getExchangeRate("27-02-2018","SGD", "LKR")).thenThrow(new FileNotFoundException("File not found for the date"));
+        Mockito.when(exchangeService.getExchangeRate("27-02-2018", "SGD", "LKR")).thenThrow(new FileInputFormatException("File not found for the date"));
         mockMvc.perform(get("/api/exchange/27-02-2018/sgd/lkr")
                 .contentType(MediaType.APPLICATION_JSON))
                 .andExpect(status().isInternalServerError())

@@ -3,6 +3,7 @@ package com.burusoth.exchange.cashexchange.controller;
 import com.burusoth.exchange.cashexchange.exception.FileInputFormatException;
 import com.burusoth.exchange.cashexchange.exception.InvalidCurrencyException;
 import com.burusoth.exchange.cashexchange.response.CashExchangeError;
+import com.burusoth.exchange.cashexchange.response.ExchangeRate;
 import com.burusoth.exchange.cashexchange.service.ExchangeService;
 import com.sun.deploy.net.HttpResponse;
 import org.slf4j.Logger;
@@ -15,6 +16,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
 import java.util.Map;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Future;
 
 @RestController
 @RequestMapping("/api")
@@ -43,13 +46,18 @@ public class CashExchangeController {
     }
     @RequestMapping(value = "/exchange/{date}/{cur1}/{cur2}", method = RequestMethod.GET)
     @ResponseBody
-    public ResponseEntity<?> exchange(@PathVariable("date") String date, @PathVariable("cur1") String cur1, @PathVariable("cur2") String cur2){
+    public ResponseEntity<?> exchange(@PathVariable("date") String date, @PathVariable("cur1") String cur1, @PathVariable("cur2") String cur2) throws FileInputFormatException, InvalidCurrencyException, IOException {
         try {
-            return new ResponseEntity<>(exchangeService.getExchangeRate(date, cur1.toUpperCase(), cur2.toUpperCase()), HttpStatus.OK);
+            while(true){
+                Future<ExchangeRate> future = exchangeService.getExchangeRate(date, cur1.toUpperCase(), cur2.toUpperCase());
+                if(future.isDone()){
+                    return new ResponseEntity<>(future.get(), HttpStatus.OK);
+                }
+            }
         } catch (IOException e) {
             e.printStackTrace();
             return new ResponseEntity<>(new CashExchangeError("Error while getting exchange rates"), HttpStatus.INTERNAL_SERVER_ERROR);
-        } catch (FileInputFormatException e) {
+        } catch (FileInputFormatException|InterruptedException|ExecutionException e) {
             e.printStackTrace();
             return new ResponseEntity<>(new CashExchangeError("Error while getting exchange rates"), HttpStatus.INTERNAL_SERVER_ERROR);
         } catch (InvalidCurrencyException e) {

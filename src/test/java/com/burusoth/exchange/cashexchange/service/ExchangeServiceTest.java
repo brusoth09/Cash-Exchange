@@ -18,6 +18,8 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Future;
 
 import static org.junit.Assert.assertTrue;
 
@@ -48,7 +50,7 @@ public class ExchangeServiceTest {
     }
 
     @Test
-    public void getExchangeRateMethodShouldReturnConvertedRateBetweenToCurrencies() throws IOException, FileInputFormatException, InvalidCurrencyException {
+    public void getExchangeRateMethodShouldReturnConvertedRateBetweenToCurrencies() throws IOException, FileInputFormatException, InvalidCurrencyException, ExecutionException, InterruptedException {
         String date = "2010-02-24";
         // mock exchange file reader of exchange service
         List<String> list = new LinkedList<>();
@@ -60,10 +62,10 @@ public class ExchangeServiceTest {
         Mockito.when(exchangeFileReader.readExchangeRate(date)).thenReturn(list);
         Mockito.when(parserUtil.parseData(list)).thenReturn(exchangeRates);
 
-        ExchangeRate exchangeRate = exchangeService.getExchangeRate(date,"SGD","LKR");
-        assertTrue(exchangeRate.getCurrency1() == "SGD");
-        assertTrue(exchangeRate.getCurrency2() == "LKR");
-        assertTrue(exchangeRate.getExchangeRate() == 1.04/5.04);
+        Future<ExchangeRate> exchangeRate = exchangeService.getExchangeRate(date,"SGD","LKR");
+        assertTrue(exchangeRate.get().getCurrency1() == "SGD");
+        assertTrue(exchangeRate.get().getCurrency2() == "LKR");
+        assertTrue(exchangeRate.get().getExchangeRate() == 1.04/5.04);
     }
 
     @Test(expected = InvalidCurrencyException.class)
