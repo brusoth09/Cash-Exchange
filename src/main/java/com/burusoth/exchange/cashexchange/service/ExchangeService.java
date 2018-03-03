@@ -42,11 +42,11 @@ public class ExchangeService {
     }
 
     public Map<String, Double> getAllExchangeRate(String date) throws IOException, FileInputFormatException {
-        logger.info("Getting records from file..");
-        List<String> records = exchangeFileReader.readExchangeRate(date);
         logger.info("Checking cache....");
         Map<String, Double> cachedValue = lruCache.get(date);
         if(cachedValue == null) {
+            logger.info("Getting records from file..");
+            List<String> records = exchangeFileReader.readExchangeRate(date);
             logger.info("Parsing received records");
             Map<String, Double> exchangeRates = parserUtil.parseData(records);
             lruCache.set(date, exchangeRates);
@@ -76,11 +76,19 @@ public class ExchangeService {
         Date end = df.parse(to);
         while(start.compareTo(end) <= 0){
             ExchangeRates exchangeRates = new ExchangeRates(df.format(start), new HashMap<>());
-            logger.info("Getting records from file..");
-            List<String> records = exchangeFileReader.readExchangeRate(df.format(start));
-            logger.info("Parsing received records");
-            Map<String, Double> ex = parserUtil.parseData(records);
-            exchangeRates.setExchangeRates(ex);
+            Map<String, Double> cachedValue = lruCache.get(df.format(start));
+            if(cachedValue == null) {
+                logger.info("Getting records from file..");
+                List<String> records = exchangeFileReader.readExchangeRate(df.format(start));
+                logger.info("Parsing received records");
+                Map<String, Double> ex = parserUtil.parseData(records);
+                exchangeRates.setExchangeRates(ex);
+                lruCache.set(df.format(start), ex);
+            } else {
+                logger.info("Getting values from cache");
+                exchangeRates.setExchangeRates(cachedValue);
+            }
+
             exchangeRateRange.getExchangeRates().add(exchangeRates);
             start = DateUtil.addDays(start, 1);
         }
